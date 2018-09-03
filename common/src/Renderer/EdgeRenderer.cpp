@@ -25,6 +25,8 @@
 #include "Renderer/ShaderManager.h"
 #include "Renderer/ShaderProgram.h"
 #include "Renderer/BrushRendererArrays.h"
+#include "Preferences.h"
+#include "PreferenceManager.h"
 
 namespace TrenchBroom {
     namespace Renderer {
@@ -72,6 +74,7 @@ namespace TrenchBroom {
             }
             shader.set("ImportantBoundsMin", Vec3f(renderContext.importantBounds().min));
             shader.set("ImportantBoundsMax", Vec3f(renderContext.importantBounds().max));
+            shader.set("BackgroundColor", pref(Preferences::BackgroundColor));
 
             // Render the faded "unimportant" edges with depth writes off
             glAssert(glDepthMask(GL_FALSE));

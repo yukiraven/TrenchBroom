@@ -21,7 +21,12 @@
 
 uniform bool ApplyTinting;
 uniform vec4 TintColor;
+/**
+ * true -> render only the things fully outside the "important bounds"
+ * false -> render things touching or inside the "important bounds"
+ */
 uniform bool RenderUnimportant;
+uniform vec4 BackgroundColor;
 
 varying vec4 vertexColor;
 /**
@@ -44,6 +49,6 @@ void main() {
     }
 
     if (unimportant) {
-        gl_FragColor.a = 0.1;
+        gl_FragColor = mix(gl_FragColor, BackgroundColor, 0.8);
     }
 }
