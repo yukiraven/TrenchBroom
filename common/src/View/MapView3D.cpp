@@ -601,7 +601,12 @@ namespace TrenchBroom {
         void MapView3D::doRenderTools(MapViewToolBox& toolBox, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) {
             renderTools(renderContext, renderBatch);
         }
-        
+
+        BBox3 MapView3D::doGetImportantBounds() const {
+            return BBox3(Vec3::fill(-std::numeric_limits<double>::infinity()),
+                         Vec3::fill(std::numeric_limits<double>::infinity()));
+        }
+
         bool MapView3D::doBeforePopupMenu() {
             if (cameraFlyModeActive())
                 return false;

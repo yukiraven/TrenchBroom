@@ -241,9 +241,12 @@ namespace TrenchBroom {
             virtual void doRenderMap(Renderer::MapRenderer& renderer, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) = 0;
             virtual void doRenderTools(MapViewToolBox& toolBox, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) = 0;
             virtual void doRenderExtras(Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch);
+            virtual BBox3 doGetImportantBounds() const = 0;
             
             virtual bool doBeforePopupMenu();
             virtual void doAfterPopupMenu();
+        public:
+            Renderer::Camera& camera();
         };
     }
 }

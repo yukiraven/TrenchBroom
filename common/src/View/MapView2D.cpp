@@ -55,6 +55,7 @@
 #include "View/Grid.h"
 #include "View/MapDocument.h"
 #include "View/MapViewToolBox.h"
+#include "View/MultiMapView.h"
 #include "View/MoveObjectsToolController.h"
 #include "View/ResizeBrushesToolController.h"
 #include "View/RotateObjectsToolController.h"
@@ -65,11 +66,14 @@
 #include "View/VertexToolController.h"
 #include "View/wxUtils.h"
 
+#include <limits>
+
 namespace TrenchBroom {
     namespace View {
-        MapView2D::MapView2D(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& renderer, GLContextManager& contextManager, const ViewPlane viewPlane) :
+        MapView2D::MapView2D(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& renderer, GLContextManager& contextManager, const ViewPlane viewPlane, MultiMapView* parentMultiMapView) :
         MapViewBase(parent, logger, document, toolBox, renderer, contextManager),
-        m_camera(){
+        m_camera(),
+        m_parentMultiMapView(parentMultiMapView){
             bindObservers();
             initializeCamera(viewPlane);
             initializeToolChain(toolBox);
@@ -346,7 +350,15 @@ namespace TrenchBroom {
         }
         
         void MapView2D::doRenderExtras(Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) {}
-        
+
+        BBox3 MapView2D::doGetImportantBounds() const {
+            if (m_parentMultiMapView == nullptr) {
+                return BBox3(Vec3::fill(-std::numeric_limits<double>::infinity()),
+                             Vec3::fill(std::numeric_limits<double>::infinity()));
+            }
+            return m_parentMultiMapView->importantBounds();
+        }
+
         void MapView2D::doLinkCamera(CameraLinkHelper& helper) {
             helper.addCamera(&m_camera);
         }

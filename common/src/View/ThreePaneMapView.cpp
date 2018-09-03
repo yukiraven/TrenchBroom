@@ -57,8 +57,8 @@ namespace TrenchBroom {
             m_vSplitter->SetName("3PaneMapViewVSplitter");
 
             m_mapView3D = new MapView3D(m_hSplitter, m_logger, m_document, toolBox, mapRenderer, contextManager);
-            m_mapViewXY = new MapView2D(m_vSplitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XY);
-            m_mapViewZZ = new CyclingMapView(m_vSplitter, m_logger, m_document, toolBox, mapRenderer, contextManager, CyclingMapView::View_ZZ);
+            m_mapViewXY = new MapView2D(m_vSplitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XY, this);
+            m_mapViewZZ = new CyclingMapView(m_vSplitter, m_logger, m_document, toolBox, mapRenderer, contextManager, CyclingMapView::View_ZZ, this);
             
             m_mapView3D->linkCamera(m_linkHelper);
             m_mapViewXY->linkCamera(m_linkHelper);
@@ -96,6 +96,10 @@ namespace TrenchBroom {
         void ThreePaneMapView::doRestoreViews() {
             m_hSplitter->restore();
             m_vSplitter->restore();
+        }
+
+        BBox3 ThreePaneMapView::importantBounds() const {
+            return importantBoundsForMapViews(std::vector<MapViewBase*>{m_mapViewXY, m_mapViewZZ->currentMapViewBase()});
         }
     }
 }

@@ -871,6 +871,7 @@ namespace TrenchBroom {
             renderContext.setShowFog(mapViewConfig.showFog());
             renderContext.setShowGrid(grid.visible());
             renderContext.setGridSize(grid.actualSize());
+            renderContext.setImportantBounds(doGetImportantBounds());
 
             setupGL(renderContext);
             setRenderOptions(renderContext);
@@ -1282,5 +1283,9 @@ namespace TrenchBroom {
 
         bool MapViewBase::doBeforePopupMenu() { return true; }
         void MapViewBase::doAfterPopupMenu() {}
+
+        Renderer::Camera& MapViewBase::camera() {
+            return doGetCamera();
+        }
     }
 }

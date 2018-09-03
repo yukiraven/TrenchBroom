@@ -117,5 +117,9 @@ namespace TrenchBroom {
                 result |= mapView->cancelMouseDrag();
             return result;
         }
+
+        BBox3 importantBoundsForMapViews(const std::vector<MapViewBase*>& views) {
+            return BBox3(Vec3::fill(-512.0), Vec3::fill(512.0));
+        }
     }
 }

@@ -61,6 +61,7 @@ namespace TrenchBroom {
         private: // implement MultiMapView subclassing interface
             void doMaximizeView(MapView* view) override;
             void doRestoreViews() override;
+            BBox3 importantBounds() const override;
         };
     }
 }

@@ -50,9 +50,9 @@ namespace TrenchBroom {
             m_splitter->SetName("4PaneMapViewSplitter");
             
             m_mapView3D = new MapView3D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager);
-            m_mapViewXY = new MapView2D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XY);
-            m_mapViewXZ = new MapView2D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XZ);
-            m_mapViewYZ = new MapView2D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_YZ);
+            m_mapViewXY = new MapView2D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XY, this);
+            m_mapViewXZ = new MapView2D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XZ, this);
+            m_mapViewYZ = new MapView2D(m_splitter, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_YZ, this);
             
             m_mapView3D->linkCamera(m_linkHelper);
             m_mapViewXY->linkCamera(m_linkHelper);
@@ -88,6 +88,10 @@ namespace TrenchBroom {
         
         void FourPaneMapView::doRestoreViews() {
             m_splitter->restore();
+        }
+
+        BBox3 FourPaneMapView::importantBounds() const {
+            return importantBoundsForMapViews(std::vector<MapViewBase*>{m_mapViewXY, m_mapViewXZ, m_mapViewYZ});
         }
     }
 }

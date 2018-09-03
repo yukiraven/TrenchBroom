@@ -229,5 +229,13 @@ namespace TrenchBroom {
                     break;
             }
         }
+
+        BBox3 RenderContext::importantBounds() const {
+            return m_importantBounds;
+        }
+
+        void RenderContext::setImportantBounds(BBox3 bounds) {
+            m_importantBounds = bounds;
+        }
     }
 }

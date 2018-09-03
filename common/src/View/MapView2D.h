@@ -42,6 +42,8 @@ namespace TrenchBroom {
     }
     
     namespace View {
+        class MultiMapView;
+
         class MapView2D : public MapViewBase {
         public:
             typedef enum {
@@ -51,8 +53,9 @@ namespace TrenchBroom {
             } ViewPlane;
         private:
             Renderer::OrthographicCamera m_camera;
+            MultiMapView* m_parentMultiMapView;
         public:
-            MapView2D(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& renderer, GLContextManager& contextManager, ViewPlane viewPlane);
+            MapView2D(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& renderer, GLContextManager& contextManager, ViewPlane viewPlane, MultiMapView* parentMultiMapView);
             ~MapView2D() override;
         private:
             void initializeCamera(ViewPlane viewPlane);
@@ -90,6 +93,7 @@ namespace TrenchBroom {
             void doRenderMap(Renderer::MapRenderer& renderer, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) override;
             void doRenderTools(MapViewToolBox& toolBox, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) override;
             void doRenderExtras(Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) override;
+            BBox3 doGetImportantBounds() const override;
         private: // implement CameraLinkableView interface
             void doLinkCamera(CameraLinkHelper& linkHelper) override;
         };

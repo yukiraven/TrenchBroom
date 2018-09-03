@@ -31,11 +31,12 @@
 
 namespace TrenchBroom {
     namespace View {
-        CyclingMapView::CyclingMapView(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& mapRenderer, GLContextManager& contextManager, const View views) :
+        CyclingMapView::CyclingMapView(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& mapRenderer, GLContextManager& contextManager, const View views, MultiMapView* parentMultiMapView) :
         MapViewContainer(parent),
         m_logger(logger),
         m_document(document),
-        m_currentMapView(nullptr) {
+        m_currentMapView(nullptr),
+        m_parentMultiMapView(parentMultiMapView) {
             createGui(toolBox, mapRenderer, contextManager, views);
             bindEvents();
         }
@@ -44,11 +45,11 @@ namespace TrenchBroom {
             if (views & View_3D)
                 m_mapViews.push_back(new MapView3D(this, m_logger, m_document, toolBox, mapRenderer, contextManager));
             if (views & View_XY)
-                m_mapViews.push_back(new MapView2D(this, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XY));
+                m_mapViews.push_back(new MapView2D(this, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XY, m_parentMultiMapView));
             if (views & View_XZ)
-                m_mapViews.push_back(new MapView2D(this, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XZ));
+                m_mapViews.push_back(new MapView2D(this, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_XZ, m_parentMultiMapView));
             if (views & View_YZ)
-                m_mapViews.push_back(new MapView2D(this, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_YZ));
+                m_mapViews.push_back(new MapView2D(this, m_logger, m_document, toolBox, mapRenderer, contextManager, MapView2D::ViewPlane_YZ, m_parentMultiMapView));
             
             for (size_t i = 0; i < m_mapViews.size(); ++i)
                 m_mapViews[i]->Hide();
@@ -151,6 +152,10 @@ namespace TrenchBroom {
             for (size_t i = 0; i < m_mapViews.size(); ++i)
                 result |= m_mapViews[i]->cancelMouseDrag();
             return result;
+        }
+
+        MapViewBase* CyclingMapView::currentMapViewBase() const {
+            return m_currentMapView;
         }
     }
 }

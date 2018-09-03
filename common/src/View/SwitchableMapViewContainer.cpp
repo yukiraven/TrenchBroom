@@ -80,7 +80,7 @@ namespace TrenchBroom {
 
             switch (viewId) {
                 case MapViewLayout_1Pane:
-                    m_mapView = new CyclingMapView(this, m_logger, m_document, *m_toolBox, *m_mapRenderer, m_contextManager, CyclingMapView::View_ALL);
+                    m_mapView = new CyclingMapView(this, m_logger, m_document, *m_toolBox, *m_mapRenderer, m_contextManager, CyclingMapView::View_ALL, nullptr);
                     break;
                 case MapViewLayout_2Pane:
                     m_mapView = new TwoPaneMapView(this, m_logger, m_document, *m_toolBox, *m_mapRenderer, m_contextManager);

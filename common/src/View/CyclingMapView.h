@@ -41,6 +41,7 @@ namespace TrenchBroom {
         class GLContextManager;
         class MapViewBase;
         class MapViewToolBox;
+        class MultiMapView;
         
         class CyclingMapView : public MapViewContainer, public CameraLinkableView {
         public:
@@ -60,8 +61,9 @@ namespace TrenchBroom {
             typedef std::vector<MapViewBase*> MapViewList;
             MapViewList m_mapViews;
             MapViewBase* m_currentMapView;
+            MultiMapView* m_parentMultiMapView;
         public:
-            CyclingMapView(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& mapRenderer, GLContextManager& contextManager, View views);
+            CyclingMapView(wxWindow* parent, Logger* logger, MapDocumentWPtr document, MapViewToolBox& toolBox, Renderer::MapRenderer& mapRenderer, GLContextManager& contextManager, View views, MultiMapView* parentMultiMapView);
         private:
             void createGui(MapViewToolBox& toolBox, Renderer::MapRenderer& mapRenderer, GLContextManager& contextManager, View views);
         private:
@@ -90,6 +92,8 @@ namespace TrenchBroom {
             MapView* doGetCurrentMapView() const override;
         private: // implement CameraLinkableView interface
             void doLinkCamera(CameraLinkHelper& linkHelper) override;
+        public:
+            MapViewBase* currentMapViewBase() const;
         };
     }
 }

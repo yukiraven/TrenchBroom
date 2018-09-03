@@ -29,7 +29,8 @@ class wxWindow;
 namespace TrenchBroom {
     namespace View {
         class MapView;
-        
+        class MapViewBase;
+
         class MultiMapView : public MapViewContainer {
         private:
             typedef std::vector<MapView*> MapViewList;
@@ -61,7 +62,11 @@ namespace TrenchBroom {
         private: // subclassing interface
             virtual void doMaximizeView(MapView* view) = 0;
             virtual void doRestoreViews() = 0;
+        public:
+            virtual BBox3 importantBounds() const = 0;
         };
+
+        BBox3 importantBoundsForMapViews(const std::vector<MapViewBase*>& views);
     }
 }
 

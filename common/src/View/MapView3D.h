@@ -118,6 +118,7 @@ namespace TrenchBroom {
             void doRenderGrid(Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) override;
             void doRenderMap(Renderer::MapRenderer& renderer, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) override;
             void doRenderTools(MapViewToolBox& toolBox, Renderer::RenderContext& renderContext, Renderer::RenderBatch& renderBatch) override;
+            BBox3 doGetImportantBounds() const override;
             
             bool doBeforePopupMenu() override;
         private: // implement CameraLinkableView interface
