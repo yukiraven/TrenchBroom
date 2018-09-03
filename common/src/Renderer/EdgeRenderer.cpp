@@ -62,20 +62,32 @@ namespace TrenchBroom {
             
             if (m_params.onTop)
                 glAssert(glDisable(GL_DEPTH_TEST));
-            
+
+            glAssert(glDepthMask(GL_FALSE));
+
             if (m_params.useColor) {
                 ActiveShader shader(renderContext.shaderManager(), Shaders::VaryingPUniformCImportantBoundsShader);
                 shader.set("Color", m_params.color);
                 shader.set("ImportantBoundsMin", Vec3f(renderContext.importantBounds().min));
                 shader.set("ImportantBoundsMax", Vec3f(renderContext.importantBounds().max));
+                shader.set("RenderUnimportant", true);
+                doRenderVertices(renderContext);
+
+                shader.set("RenderUnimportant", false);
                 doRenderVertices(renderContext);
             } else {
                 ActiveShader shader(renderContext.shaderManager(), Shaders::VaryingPCImportantBoundsShader);
                 shader.set("ImportantBoundsMin", Vec3f(renderContext.importantBounds().min));
                 shader.set("ImportantBoundsMax", Vec3f(renderContext.importantBounds().max));
+                shader.set("RenderUnimportant", true);
+                doRenderVertices(renderContext);
+
+                shader.set("RenderUnimportant", false);
                 doRenderVertices(renderContext);
             }
-            
+
+            glAssert(glDepthMask(GL_TRUE));
+
             if (m_params.onTop)
                 glAssert(glEnable(GL_DEPTH_TEST));
             

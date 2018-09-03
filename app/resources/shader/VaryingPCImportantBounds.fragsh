@@ -21,6 +21,7 @@
 
 uniform bool ApplyTinting;
 uniform vec4 TintColor;
+uniform bool RenderUnimportant;
 
 varying vec4 vertexColor;
 /**
@@ -30,6 +31,11 @@ varying vec4 vertexColor;
 varying float isInImportantBounds;
 
 void main() {
+    bool unimportant = (isInImportantBounds == 0.0);
+    if (RenderUnimportant != unimportant) {
+        discard;
+    }
+
     gl_FragColor = vertexColor;
     
     if (ApplyTinting) {
@@ -37,8 +43,7 @@ void main() {
         gl_FragColor = clamp(2.0 * gl_FragColor, 0.0, 1.0);
     }
 
-    if (isInImportantBounds == 0.0) {
-        gl_FragColor.rgb = vec3(1.0, 0.0, 0.0);
-        gl_FragColor.a = 0.1;
+    if (unimportant) {
+        gl_FragColor.a = 0.25;
     }
 }

@@ -131,15 +131,18 @@ namespace TrenchBroom {
                 Plane3f top, right, bottom, left;
                 camera.frustumPlanes(top, right, bottom, left);
 
-                // these are facing away from the viewport
+                // These planes are facing away from the viewport
                 for (auto& plane : {top, bottom, left, right}) {
-                    // skip non-axial planes
+                    // Skip non-axial planes
                     if (plane.normal.firstAxis() != plane.normal) {
-                        std::cout << "skipping non-axial\n";
                         continue;
                     }
 
-                    // clip `bounds` by `plane`
+                    // If bounds is infinite on this side, clip it to `plane`.
+                    // Otherwise, union the bounds with the plane along this axis.
+                    // This is done because there can be 2D views that display different widths of an axis, and we want
+                    // to use the larger one, otherwise objects near the edges of the larger viewport could be
+                    // wrongly marked as "unimportant".
                     const size_t comp = plane.normal.firstComponent();
                     const auto axisSign = plane.normal.firstAxis()[comp];
                     if (axisSign < 0) {
@@ -158,7 +161,6 @@ namespace TrenchBroom {
                 }
             }
 
-            std::cout << "important bounds for " << views.size() << " views: " << bounds << "\n";
             return BBox3(Vec3(bounds.min), Vec3(bounds.max));
         }
     }
