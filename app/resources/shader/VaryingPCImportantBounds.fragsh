@@ -38,6 +38,7 @@ void main() {
     }
 
     if (isInImportantBounds == 0.0) {
-        gl_FragColor.a *= 0.5;
+        gl_FragColor.rgb = vec3(1.0, 0.0, 0.0);
+        gl_FragColor.a = 0.1;
     }
 }

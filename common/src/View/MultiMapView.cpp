@@ -20,8 +20,11 @@
 #include "MultiMapView.h"
 
 #include "View/MapView.h"
+#include "View/MapViewBase.h"
+#include "Renderer/Camera.h"
 
 #include <cassert>
+#include <limits>
 
 namespace TrenchBroom {
     namespace View {
@@ -119,7 +122,44 @@ namespace TrenchBroom {
         }
 
         BBox3 importantBoundsForMapViews(const std::vector<MapViewBase*>& views) {
-            return BBox3(Vec3::fill(-512.0), Vec3::fill(512.0));
+            BBox3f bounds{Vec3f::fill(-std::numeric_limits<float>::infinity()),
+                          Vec3f::fill(+std::numeric_limits<float>::infinity())};
+
+            for (auto* view : views) {
+                auto& camera = view->camera();
+
+                Plane3f top, right, bottom, left;
+                camera.frustumPlanes(top, right, bottom, left);
+
+                // these are facing away from the viewport
+                for (auto& plane : {top, bottom, left, right}) {
+                    // skip non-axial planes
+                    if (plane.normal.firstAxis() != plane.normal) {
+                        std::cout << "skipping non-axial\n";
+                        continue;
+                    }
+
+                    // clip `bounds` by `plane`
+                    const size_t comp = plane.normal.firstComponent();
+                    const auto axisSign = plane.normal.firstAxis()[comp];
+                    if (axisSign < 0) {
+                        if (std::isinf(bounds.min[comp])) {
+                            bounds.min[comp] = axisSign * plane.distance;
+                        } else {
+                            bounds.min[comp] = std::min(bounds.min[comp], axisSign * plane.distance);
+                        }
+                    } else {
+                        if (std::isinf(bounds.max[comp])) {
+                            bounds.max[comp] = axisSign * plane.distance;
+                        } else {
+                            bounds.max[comp] = std::max(bounds.max[comp], axisSign * plane.distance);
+                        }
+                    }
+                }
+            }
+
+            std::cout << "important bounds for " << views.size() << " views: " << bounds << "\n";
+            return BBox3(Vec3(bounds.min), Vec3(bounds.max));
         }
     }
 }
