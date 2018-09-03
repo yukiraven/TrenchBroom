@@ -44,6 +44,6 @@ void main() {
     }
 
     if (unimportant) {
-        gl_FragColor.a = 0.25;
+        gl_FragColor.a = 0.1;
     }
 }

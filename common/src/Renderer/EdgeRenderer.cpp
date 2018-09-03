@@ -63,30 +63,25 @@ namespace TrenchBroom {
             if (m_params.onTop)
                 glAssert(glDisable(GL_DEPTH_TEST));
 
-            glAssert(glDepthMask(GL_FALSE));
+            ActiveShader shader(renderContext.shaderManager(),
+                                m_params.useColor ? Shaders::VaryingPUniformCImportantBoundsShader
+                                                  : Shaders::VaryingPCImportantBoundsShader);
 
             if (m_params.useColor) {
-                ActiveShader shader(renderContext.shaderManager(), Shaders::VaryingPUniformCImportantBoundsShader);
                 shader.set("Color", m_params.color);
-                shader.set("ImportantBoundsMin", Vec3f(renderContext.importantBounds().min));
-                shader.set("ImportantBoundsMax", Vec3f(renderContext.importantBounds().max));
-                shader.set("RenderUnimportant", true);
-                doRenderVertices(renderContext);
-
-                shader.set("RenderUnimportant", false);
-                doRenderVertices(renderContext);
-            } else {
-                ActiveShader shader(renderContext.shaderManager(), Shaders::VaryingPCImportantBoundsShader);
-                shader.set("ImportantBoundsMin", Vec3f(renderContext.importantBounds().min));
-                shader.set("ImportantBoundsMax", Vec3f(renderContext.importantBounds().max));
-                shader.set("RenderUnimportant", true);
-                doRenderVertices(renderContext);
-
-                shader.set("RenderUnimportant", false);
-                doRenderVertices(renderContext);
             }
+            shader.set("ImportantBoundsMin", Vec3f(renderContext.importantBounds().min));
+            shader.set("ImportantBoundsMax", Vec3f(renderContext.importantBounds().max));
 
+            // Render the faded "unimportant" edges with depth writes off
+            glAssert(glDepthMask(GL_FALSE));
+            shader.set("RenderUnimportant", true);
+            doRenderVertices(renderContext);
             glAssert(glDepthMask(GL_TRUE));
+
+            // Render the other edges opaque with depth writes on
+            shader.set("RenderUnimportant", false);
+            doRenderVertices(renderContext);
 
             if (m_params.onTop)
                 glAssert(glEnable(GL_DEPTH_TEST));
