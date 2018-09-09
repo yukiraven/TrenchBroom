@@ -36,8 +36,6 @@
 #include "Renderer/TexturedIndexArrayBuilder.h"
 
 #include <vector>
-#include <Renderer/BrushRendererBrushCache.h>
-
 #include <set>
 
 namespace TrenchBroom {
