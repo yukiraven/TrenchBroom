@@ -16,8 +16,11 @@ LIST(APPEND BENCHMARK_SOURCE
 	"${TEST_SOURCE_DIR}/GLInit.cpp"
 	"${TEST_SOURCE_DIR}/View/GetVersion.cpp")
 
-ADD_EXECUTABLE(TrenchBroom-Test ${TEST_SOURCE} $<TARGET_OBJECTS:common>)
-ADD_EXECUTABLE(TrenchBroom-Benchmark ${BENCHMARK_SOURCE} $<TARGET_OBJECTS:common>)
+ADD_EXECUTABLE(TrenchBroom-Test ${TEST_SOURCE})
+ADD_EXECUTABLE(TrenchBroom-Benchmark ${BENCHMARK_SOURCE})
+
+target_link_libraries(TrenchBroom-Test common)
+target_link_libraries(TrenchBroom-Benchmark common)
 
 IF(COMPILER_IS_GNU AND TB_ENABLE_ASAN)
 	TARGET_LINK_LIBRARIES(TrenchBroom-Test asan)
