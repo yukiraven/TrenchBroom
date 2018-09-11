@@ -4,12 +4,15 @@ ELSE()
     cmake_minimum_required (VERSION 3.1)
 ENDIF()
 
+# https://github.com/nanoant/CMakePCHCompiler
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/CMakePCHCompiler)
+
 # SET(CMAKE_VERBOSE_MAKEFILE ON)
 
 INCLUDE(cmake/Utils.cmake)
 
 # Using C and CXX because GLEW is C
-PROJECT(TrenchBroom C CXX)
+PROJECT(TrenchBroom C CXX CXXPCH)
 
 # Compiler detection
 SET(COMPILER_IS_CLANG FALSE)

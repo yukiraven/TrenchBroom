@@ -12,6 +12,9 @@ FILE(GLOB_RECURSE COMMON_HEADER
 # But we can still use this on other platforms and in Release builds
 #IF(NOT CMAKE_GENERATOR STREQUAL "Xcode")
 	ADD_LIBRARY(common OBJECT ${COMMON_SOURCE} ${COMMON_HEADER})
+    
+    target_precompiled_header(common common/src/Prefix.h)
+
 	SET_XCODE_ATTRIBUTES(common)
 #ENDIF()
 
