@@ -22,7 +22,6 @@
 
 #include "Model/ModelTypes.h"
 
-#include <initializer_list>
 
 namespace TrenchBroom {
     namespace View {

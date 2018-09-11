@@ -34,8 +34,6 @@
 #include "View/InputState.h"
 #include "View/MapDocument.h"
 
-#include <cassert>
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace View {

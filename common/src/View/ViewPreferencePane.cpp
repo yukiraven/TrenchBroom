@@ -29,14 +29,6 @@
 
 #include "Renderer/GL.h"
 
-#include <wx/checkbox.h>
-#include <wx/choice.h>
-#include <wx/clrpicker.h>
-#include <wx/gbsizer.h>
-#include <wx/sizer.h>
-#include <wx/slider.h>
-#include <wx/stattext.h>
-#include <wx/layout.h>
 
 namespace TrenchBroom {
     namespace View {

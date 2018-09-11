@@ -24,7 +24,6 @@
 #include "Renderer/GL.h"
 #include "Renderer/ShaderProgram.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

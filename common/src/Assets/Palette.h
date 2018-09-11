@@ -24,7 +24,6 @@
 #include "ByteBuffer.h"
 #include "IO/MappedFile.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace IO {

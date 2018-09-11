@@ -37,12 +37,6 @@
 #include "View/UVEditor.h"
 #include "View/ViewUtils.h"
 
-#include <wx/bitmap.h>
-#include <wx/button.h>
-#include <wx/gbsizer.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/wupdlock.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -30,12 +30,7 @@
 #include "View/ViewConstants.h"
 #include "View/wxUtils.h"
 
-#include <wx/button.h>
-#include <wx/msgdlg.h>
-#include <wx/sizer.h>
 
-#include <algorithm>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace View {

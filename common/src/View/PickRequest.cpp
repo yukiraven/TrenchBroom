@@ -19,7 +19,6 @@
 
 #include "PickRequest.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

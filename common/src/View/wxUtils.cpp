@@ -27,17 +27,7 @@
 #include "View/MapFrame.h"
 #include "View/ViewConstants.h"
 
-#include <wx/bitmap.h>
-#include <wx/frame.h>
-#include <wx/listctrl.h>
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/tglbtn.h>
-#include <wx/window.h>
 
-#include <list>
-#include <cstdlib>
 
 namespace TrenchBroom {
     namespace View {

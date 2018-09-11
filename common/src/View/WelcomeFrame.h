@@ -22,7 +22,6 @@
 
 #include "IO/Path.h"
 
-#include <wx/frame.h>
 
 class wxButton;
 class wxPanel;

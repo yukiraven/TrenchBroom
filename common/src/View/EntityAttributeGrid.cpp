@@ -27,11 +27,6 @@
 #include "View/MapDocument.h"
 #include "View/wxUtils.h"
 
-#include <wx/bmpbuttn.h>
-#include <wx/checkbox.h>
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/textctrl.h>
 
 namespace TrenchBroom {
     namespace View {

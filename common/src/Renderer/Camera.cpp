@@ -19,8 +19,6 @@
 
 #include "Camera.h"
 
-#include <cassert>
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace Renderer {

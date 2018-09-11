@@ -40,7 +40,6 @@
 #include "Exceptions.h"
 #include "RecoverableExceptions.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_ProjectingSequence_h
 #define TrenchBroom_ProjectingSequence_h
 
-#include <iterator>
 
 template <typename T, typename R>
 struct ProjectingSequenceProjector {

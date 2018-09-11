@@ -22,7 +22,6 @@
 
 #include "View/PreferencePane.h"
 
-#include <wx/grid.h>
 
 namespace TrenchBroom {
     namespace View {

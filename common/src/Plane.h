@@ -25,7 +25,6 @@ along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
 #include "Mat.h"
 #include "Ray.h"
 #include "Vec.h"
-#include <vector>
 
 template <typename T, size_t S>
 class Plane {

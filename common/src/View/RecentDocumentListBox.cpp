@@ -27,7 +27,6 @@
 #include "Model/GameFactory.h"
 #include "View/RecentDocumentSelectedCommand.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

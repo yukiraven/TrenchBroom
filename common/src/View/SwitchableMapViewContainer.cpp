@@ -34,7 +34,6 @@
 #include "View/MapViewBar.h"
 #include "View/MapViewToolBox.h"
 
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

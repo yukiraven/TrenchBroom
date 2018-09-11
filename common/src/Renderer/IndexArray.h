@@ -26,7 +26,6 @@
 #include "Renderer/Vbo.h"
 #include "Renderer/VboBlock.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

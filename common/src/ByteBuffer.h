@@ -23,8 +23,6 @@
 #include "SharedPointer.h"
 #include "Macros.h"
 
-#include <cassert>
-#include <vector>
 
 template <typename T>
 class Buffer {

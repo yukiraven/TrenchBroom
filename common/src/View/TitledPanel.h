@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_TitledPanel
 #define TrenchBroom_TitledPanel
 
-#include <wx/panel.h>
 
 namespace TrenchBroom {
     namespace View {

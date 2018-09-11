@@ -32,11 +32,6 @@
 #include "View/PreferencePane.h"
 #include "View/wxUtils.h"
 
-#include <wx/button.h>
-#include <wx/panel.h>
-#include <wx/sizer.h>
-#include <wx/simplebook.h>
-#include <wx/toolbar.h>
 
 namespace TrenchBroom {
     namespace View {

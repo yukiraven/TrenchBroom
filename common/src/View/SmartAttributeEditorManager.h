@@ -24,9 +24,7 @@
 #include "Model/ModelTypes.h"
 #include "View/ViewTypes.h"
 
-#include <vector>
 
-#include <wx/panel.h>
 
 class wxWindow;
 

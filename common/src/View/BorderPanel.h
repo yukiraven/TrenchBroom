@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_BorderPanel
 #define TrenchBroom_BorderPanel
 
-#include <wx/panel.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -24,7 +24,6 @@
 #include "Assets/ColorRange.h"
 #include "Model/ModelTypes.h"
 
-#include <wx/colour.h>
 
 namespace TrenchBroom {
     namespace Model {

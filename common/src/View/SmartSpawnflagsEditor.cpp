@@ -29,12 +29,7 @@
 #include "View/MapDocument.h"
 #include "View/ViewUtils.h"
 
-#include <wx/settings.h>
-#include <wx/scrolwin.h>
-#include <wx/sizer.h>
-#include <wx/wupdlock.h>
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

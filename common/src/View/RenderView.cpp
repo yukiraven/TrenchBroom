@@ -28,10 +28,7 @@
 #include "View/wxUtils.h"
 #include "TrenchBroomApp.h"
 
-#include <wx/dcclient.h>
-#include <wx/settings.h>
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace View {

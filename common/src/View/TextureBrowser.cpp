@@ -26,11 +26,6 @@
 #include "View/MapDocument.h"
 #include "View/TextureSelectedCommand.h"
 
-#include <wx/choice.h>
-#include <wx/event.h>
-#include <wx/tglbtn.h>
-#include <wx/sizer.h>
-#include <wx/srchctrl.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -21,7 +21,6 @@
 
 #include "Renderer/GL.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Renderer {

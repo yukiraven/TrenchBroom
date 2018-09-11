@@ -26,7 +26,6 @@
 #include "IO/MappedFile.h"
 #include "IO/Path.h"
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace IO {

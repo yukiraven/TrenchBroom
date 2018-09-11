@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_KeyboardShortcutEditor
 #define TrenchBroom_KeyboardShortcutEditor
 
-#include <wx/defs.h>
-#include <wx/control.h>
 
 class wxPanel;
 class wxStaticText;

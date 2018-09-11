@@ -19,7 +19,6 @@
 
 #include "OpenClipboard.h"
 
-#include <wx/clipbrd.h>
 
 namespace TrenchBroom {
     namespace View {

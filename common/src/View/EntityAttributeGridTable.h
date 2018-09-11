@@ -24,9 +24,7 @@
 #include "Model/ModelTypes.h"
 #include "View/ViewTypes.h"
 
-#include <wx/grid.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

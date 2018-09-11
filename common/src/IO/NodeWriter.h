@@ -24,7 +24,6 @@
 #include "Model/MapFormat.h"
 #include "Model/ModelTypes.h"
 
-#include <cstdio>
 
 namespace TrenchBroom {
     namespace IO {

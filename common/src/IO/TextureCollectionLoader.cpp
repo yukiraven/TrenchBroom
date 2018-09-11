@@ -28,10 +28,6 @@
 #include "IO/TextureReader.h"
 #include "IO/WadFileSystem.h"
 
-#include <algorithm>
-#include <cassert>
-#include <iterator>
-#include <memory>
 
 namespace TrenchBroom {
     namespace IO {

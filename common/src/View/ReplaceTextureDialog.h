@@ -23,7 +23,6 @@
 #include "Model/ModelTypes.h"
 #include "View/ViewTypes.h"
 
-#include <wx/dialog.h>
 
 namespace TrenchBroom {
     namespace View {

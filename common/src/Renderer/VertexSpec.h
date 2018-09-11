@@ -25,7 +25,6 @@
 #include "Renderer/AttributeSpec.h"
 #include "Renderer/Vertex.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

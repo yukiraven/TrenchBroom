@@ -22,7 +22,6 @@
 
 #include "Ensure.h"
 
-#include <iterator>
 
 template <typename Item, typename GetLink>
 class DoublyLinkedList {

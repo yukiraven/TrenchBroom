@@ -24,9 +24,6 @@
 #include "IO/CharArrayReader.h"
 #include "IO/FileSystem.h"
 
-#include <algorithm>
-#include <cstring>
-#include <fstream>
 
 namespace TrenchBroom {
     namespace Assets {

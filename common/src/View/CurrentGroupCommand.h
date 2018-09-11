@@ -24,7 +24,6 @@
 #include "Model/ModelTypes.h"
 #include "View/UndoableCommand.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace View {

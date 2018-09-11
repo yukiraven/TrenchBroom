@@ -27,8 +27,6 @@
 #include "View/ScaleObjectsToolPage.h"
 #include "BBox.h"
 
-#include <bitset>
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

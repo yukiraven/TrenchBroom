@@ -23,7 +23,6 @@
 #include "Model/Object.h"
 #include "View/MapDocument.h"
 
-#include <wx/window.h>
 
 namespace TrenchBroom {
     namespace View {

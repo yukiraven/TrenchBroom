@@ -19,9 +19,6 @@
 
 #include "CharArrayReader.h"
 
-#include <cassert>
-#include <cstring>
-#include <functional>
 
 namespace TrenchBroom {
     namespace IO {

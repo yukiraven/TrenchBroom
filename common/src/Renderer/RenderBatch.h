@@ -24,7 +24,6 @@
 #include "VecMath.h"
 #include "Color.h"
 
-#include <list>
 
 namespace TrenchBroom {
     namespace Renderer {

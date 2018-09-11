@@ -26,8 +26,6 @@
 #include "Quat.h"
 #include "Vec.h"
 
-#include <algorithm>
-#include <array>
 
 template <typename T, size_t S>
 class BBox {

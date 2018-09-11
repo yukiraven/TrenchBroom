@@ -22,7 +22,6 @@
 
 #include "VecMath.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

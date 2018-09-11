@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_TabBook
 #define TrenchBroom_TabBook
 
-#include <wx/panel.h>
 
 class wxBookCtrlEvent;
 class wxSimplebook;

@@ -24,8 +24,6 @@
 #include "SharedPointer.h"
 #include "Renderer/GL.h"
 
-#include <map>
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

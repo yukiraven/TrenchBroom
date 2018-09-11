@@ -22,9 +22,6 @@
 #include "Assets/EntityDefinition.h"
 #include "Model/AttributableNode.h"
 
-#include <wx/sizer.h>
-#include <wx/textctrl.h>
-#include <wx/wupdlock.h>
 
 namespace TrenchBroom {
     namespace View {

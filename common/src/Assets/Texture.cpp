@@ -21,7 +21,6 @@
 #include "Assets/ImageUtils.h"
 #include "Assets/TextureCollection.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Assets {

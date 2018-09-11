@@ -26,16 +26,8 @@
 #include "Macros.h"
 #include "StringUtils.h"
 
-#include <cassert>
-#include <cstdio>
-#include <cstring>
-#include <fstream>
-#include <iostream>
-#include <limits>
-#include <vector>
 
 #ifdef _MSC_VER
-#include <cstdint>
 #elif defined __GNUC__
 #include <stdint.h>
 #endif

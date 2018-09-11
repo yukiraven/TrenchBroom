@@ -22,7 +22,6 @@
 
 #include "Logger.h"
 
-#include <cstdio>
 
 namespace TrenchBroom {
     namespace IO {

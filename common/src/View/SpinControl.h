@@ -20,11 +20,7 @@ along with TrenchBroom.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef TrenchBroom_SpinControl
 #define TrenchBroom_SpinControl
 
-#include <wx/control.h>
-#include <wx/event.h>
-#include <wx/panel.h>
 
-#include <cassert>
 
 class wxSpinButton;
 class wxTextCtrl;

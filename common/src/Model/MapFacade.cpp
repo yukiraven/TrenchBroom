@@ -21,7 +21,6 @@
 
 #include "Model/NodeCollection.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

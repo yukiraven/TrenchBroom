@@ -23,7 +23,6 @@
 
 #include "StringUtils.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

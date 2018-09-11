@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_PreferenceDialog
 #define TrenchBroom_PreferenceDialog
 
-#include <wx/dialog.h>
 
 class wxPanel;
 class wxSimplebook;

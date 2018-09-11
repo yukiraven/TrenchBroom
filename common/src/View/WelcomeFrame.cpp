@@ -27,10 +27,6 @@
 #include "View/RecentDocumentSelectedCommand.h"
 #include "View/wxUtils.h"
 
-#include <wx/panel.h>
-#include <wx/sizer.h>
-#include <wx/filedlg.h>
-#include <wx/button.h>
 
 namespace TrenchBroom {
     namespace View {

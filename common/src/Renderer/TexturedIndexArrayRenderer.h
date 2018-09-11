@@ -24,7 +24,6 @@
 #include "Renderer/IndexArray.h"
 #include "Renderer/TexturedIndexArrayMap.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace Assets {

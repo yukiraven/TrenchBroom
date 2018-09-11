@@ -22,7 +22,6 @@
 
 #include "StringUtils.h"
 
-#include <wx/dialog.h>
 
 class wxStaticText;
 class wxWindow;

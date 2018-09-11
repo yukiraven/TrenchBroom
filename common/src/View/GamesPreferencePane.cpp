@@ -31,15 +31,6 @@
 #include "View/ViewConstants.h"
 #include "View/wxUtils.h"
 
-#include <wx/button.h>
-#include <wx/dirdlg.h>
-#include <wx/gbsizer.h>
-#include <wx/listbox.h>
-#include <wx/simplebook.h>
-#include <wx/sizer.h>
-#include <wx/settings.h>
-#include <wx/stattext.h>
-#include <wx/textctrl.h>
 
 namespace TrenchBroom {
     namespace View {

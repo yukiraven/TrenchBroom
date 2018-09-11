@@ -22,7 +22,6 @@
 
 #include "Exceptions.h"
 
-#include <functional>
 
 namespace TrenchBroom {
     namespace IO {

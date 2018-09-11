@@ -32,7 +32,6 @@
 #include "View/MapDocument.h"
 #include "View/MoveObjectsToolPage.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

@@ -20,11 +20,7 @@
 #ifndef TrenchBroom_KeyboardShortcut
 #define TrenchBroom_KeyboardShortcut
 
-#include <wx/accel.h>
-#include <wx/defs.h>
-#include <wx/string.h>
 
-#include <set>
 
 class wxKeyEvent;
 

@@ -24,10 +24,6 @@
 #include "Exceptions.h"
 #include "StringUtils.h"
 
-#include <cassert>
-#include <map>
-#include <set>
-#include <vector>
 
 namespace TrenchBroom {
     template <typename V>

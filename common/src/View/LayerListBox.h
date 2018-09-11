@@ -24,7 +24,6 @@
 #include "View/ControlListBox.h"
 #include "View/ViewTypes.h"
 
-#include <vector>
 
 class wxScrolledWindow;
 

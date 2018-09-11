@@ -23,7 +23,6 @@
 #include "View/ToolBox.h"
 #include "View/ViewTypes.h"
 
-#include <memory>
 
 class wxBookCtrlBase;
 

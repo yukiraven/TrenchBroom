@@ -23,11 +23,6 @@
 #include "View/BorderLine.h"
 #include "View/ViewConstants.h"
 
-#include <wx/listbox.h>
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/wupdlock.h>
 
 wxDEFINE_EVENT(wxEVT_LISTBOX_RCLICK, wxCommandEvent);
 

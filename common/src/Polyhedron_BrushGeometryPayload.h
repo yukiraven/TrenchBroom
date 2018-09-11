@@ -22,7 +22,6 @@
 
 #include "Renderer/GL.h"
 
-#include <limits>
 
 namespace TrenchBroom {
     namespace Model {

@@ -22,10 +22,6 @@
 #include "View/KeyboardShortcut.h"
 #include "View/KeyboardShortcutEvent.h"
 
-#include <wx/panel.h>
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
 
 namespace TrenchBroom {
     namespace View {

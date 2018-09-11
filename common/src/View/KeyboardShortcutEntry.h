@@ -23,9 +23,7 @@
 #include "Preference.h"
 #include "View/ActionContext.h"
 
-#include <vector>
 
-#include <wx/string.h>
 
 namespace TrenchBroom {
     namespace IO {

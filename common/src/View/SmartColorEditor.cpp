@@ -30,14 +30,7 @@
 #include "View/MapDocument.h"
 #include "View/ViewConstants.h"
 
-#include <wx/clrpicker.h>
-#include <wx/panel.h>
-#include <wx/radiobut.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/wupdlock.h>
 
-#include <iomanip>
 
 namespace TrenchBroom {
     namespace View {

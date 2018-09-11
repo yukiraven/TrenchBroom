@@ -21,7 +21,6 @@
 
 #include "Macros.h"
 
-#include <algorithm>
 
 
 namespace TrenchBroom {

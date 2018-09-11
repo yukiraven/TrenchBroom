@@ -24,7 +24,6 @@
 #include "Model/BrushFace.h"
 #include "Model/ModelFactory.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

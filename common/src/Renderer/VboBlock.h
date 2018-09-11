@@ -22,9 +22,6 @@
 
 #include "Renderer/Vbo.h"
 
-#include <cstring>
-#include <vector>
-#include <type_traits>
 
 namespace TrenchBroom {
     namespace Renderer {

@@ -35,7 +35,6 @@
 #include "Renderer/VertexArray.h"
 #include "View/InputState.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

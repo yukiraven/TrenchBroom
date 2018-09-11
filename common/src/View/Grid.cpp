@@ -19,7 +19,6 @@
 
 #include "Grid.h"
 
-#include <cmath>
 
 #include "CollectionUtils.h"
 #include "Model/Brush.h"

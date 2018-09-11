@@ -26,11 +26,6 @@
 #include "View/ViewConstants.h"
 #include "View/MapDocument.h"
 
-#include <wx/choice.h>
-#include <wx/event.h>
-#include <wx/tglbtn.h>
-#include <wx/srchctrl.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

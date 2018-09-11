@@ -21,8 +21,6 @@
 
 #include "Macros.h"
 
-#include <wx/radiobut.h>
-#include <wx/sizer.h>
 
 wxDEFINE_EVENT(wxEVT_RADIOGROUP, wxCommandEvent);
 

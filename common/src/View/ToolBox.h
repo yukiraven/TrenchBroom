@@ -25,10 +25,7 @@
 #include "StringUtils.h"
 #include "Notifier.h"
 
-#include <wx/datetime.h>
 
-#include <map>
-#include <vector>
 
 class wxWindow;
 class wxFocusEvent;

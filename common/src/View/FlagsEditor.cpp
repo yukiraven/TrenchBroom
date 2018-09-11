@@ -23,10 +23,6 @@
 #include "View/ViewConstants.h"
 #include "Macros.h"
 
-#include <cassert>
-#include <wx/checkbox.h>
-#include <wx/sizer.h>
-#include <wx/wupdlock.h>
 
 namespace TrenchBroom {
     namespace View {

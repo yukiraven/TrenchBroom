@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_KeyboardShortcutEvent
 #define TrenchBroom_KeyboardShortcutEvent
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -30,7 +30,6 @@
 #include "View/MapDocument.h"
 #include "View/ViewUtils.h"
 
-#include <wx/msgdlg.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -26,10 +26,6 @@
 #include "Renderer/GL.h"
 #include "Renderer/VboBlock.h"
 
-#include <algorithm>
-#include <vector>
-#include <cassert>
-#include <unordered_map>
 
 namespace TrenchBroom {
     namespace Model {

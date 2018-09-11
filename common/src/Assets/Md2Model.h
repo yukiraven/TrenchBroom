@@ -27,7 +27,6 @@
 #include "Renderer/VertexSpec.h"
 #include "Renderer/IndexRangeMap.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

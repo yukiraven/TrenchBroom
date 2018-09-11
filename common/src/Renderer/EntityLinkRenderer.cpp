@@ -33,7 +33,6 @@
 #include "Renderer/Shaders.h"
 #include "View/MapDocument.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Renderer {

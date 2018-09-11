@@ -21,7 +21,6 @@
 
 #include "View/ViewConstants.h"
 
-#include <wx/dcbuffer.h>
 
 namespace TrenchBroom {
     namespace View {

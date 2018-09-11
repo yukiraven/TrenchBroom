@@ -22,7 +22,6 @@
 #include "CollectionUtils.h"
 #include "Exceptions.h"
 
-#include <cstdarg>
 
 namespace TrenchBroom {
     namespace IO {

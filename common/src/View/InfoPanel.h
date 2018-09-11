@@ -22,8 +22,6 @@
 
 #include "View/ViewTypes.h"
 
-#include <wx/bitmap.h>
-#include <wx/panel.h>
 
 class wxBookCtrlEvent;
 class wxButton;

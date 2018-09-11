@@ -20,7 +20,6 @@
 #ifndef PopupWindow_h
 #define PopupWindow_h
 
-#include <wx/frame.h>
 
 namespace TrenchBroom {
     namespace View {

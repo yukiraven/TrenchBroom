@@ -50,7 +50,6 @@
 
 #include "Exceptions.h"
 
-#include <cstdio>
 
 namespace TrenchBroom {
     namespace Model {

@@ -23,7 +23,6 @@
 #include "SharedPointer.h"
 #include "Renderer/IndexArrayMap.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace Assets {

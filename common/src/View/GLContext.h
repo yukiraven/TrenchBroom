@@ -22,7 +22,6 @@
 
 #include "SharedPointer.h"
 
-#include <wx/glcanvas.h>
 
 namespace TrenchBroom {
     namespace Renderer {

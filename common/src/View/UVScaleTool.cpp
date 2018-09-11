@@ -34,7 +34,6 @@
 #include "View/UVViewHelper.h"
 #include "View/UVOriginTool.h"
 
-#include <numeric>
 
 namespace TrenchBroom {
     namespace View {

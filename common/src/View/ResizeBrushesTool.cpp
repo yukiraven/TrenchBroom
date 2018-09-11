@@ -34,8 +34,6 @@
 #include "View/Grid.h"
 #include "View/MapDocument.h"
 
-#include <algorithm>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace View {

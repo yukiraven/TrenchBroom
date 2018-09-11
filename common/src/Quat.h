@@ -23,7 +23,6 @@
 #include "MathUtils.h"
 #include "Vec.h"
 
-#include <cassert>
 
 template <typename T>
 class Quat {

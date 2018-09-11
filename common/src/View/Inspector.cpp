@@ -25,7 +25,6 @@
 #include "View/TabBook.h"
 #include "View/TabBar.h"
 
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

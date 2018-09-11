@@ -29,9 +29,6 @@
 #include "View/ChoosePathTypeDialog.h"
 #include "View/MapDocument.h"
 
-#include <wx/textentry.h>
-#include <wx/msgdlg.h>
-#include <wx/textdlg.h>
 
 namespace TrenchBroom {
     namespace View {

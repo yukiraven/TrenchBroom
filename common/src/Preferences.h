@@ -28,7 +28,6 @@
 #include "View/MapViewLayout.h"
 #include "View/ViewShortcut.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Preferences {

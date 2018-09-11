@@ -22,7 +22,6 @@
 
 #include "Model/ModelTypes.h"
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace View {

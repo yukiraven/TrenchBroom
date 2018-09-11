@@ -26,9 +26,7 @@
 #include "View/KeyboardShortcut.h"
 #include "View/KeyboardShortcutEntry.h"
 
-#include <wx/accel.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

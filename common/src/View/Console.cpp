@@ -22,13 +22,7 @@
 #include "FileLogger.h"
 #include "View/ViewConstants.h"
 
-#include <wx/log.h>
-#include <wx/panel.h>
-#include <wx/sizer.h>
-#include <wx/textctrl.h>
-#include <wx/wupdlock.h>
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace View {

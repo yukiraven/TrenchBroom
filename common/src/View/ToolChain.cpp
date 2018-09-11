@@ -21,7 +21,6 @@
 
 #include "View/ToolController.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

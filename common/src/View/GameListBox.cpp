@@ -26,8 +26,6 @@
 #include "Model/GameFactory.h"
 #include "View/GameSelectionCommand.h"
 
-#include <cassert>
-#include <wx/log.h>
 
 namespace TrenchBroom {
     namespace View {

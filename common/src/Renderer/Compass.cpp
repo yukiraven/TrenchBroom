@@ -35,7 +35,6 @@
 #include "Renderer/VertexArray.h"
 #include "Renderer/VertexSpec.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Renderer {

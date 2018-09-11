@@ -23,7 +23,6 @@
 #include "StringUtils.h"
 #include "Model/MapFormat.h"
 
-#include <wx/dialog.h>
 
 class wxButton;
 class wxChoice;

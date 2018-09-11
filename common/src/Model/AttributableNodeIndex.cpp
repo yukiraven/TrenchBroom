@@ -23,7 +23,6 @@
 #include "Macros.h"
 #include "Model/AttributableNode.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

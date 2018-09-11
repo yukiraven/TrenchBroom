@@ -22,8 +22,6 @@
 
 #include "Macros.h"
 
-#include <cassert>
-#include <iostream> // for nullptr
 
 namespace TrenchBroom {
     // ====== Function pointer with 0 arguments ======

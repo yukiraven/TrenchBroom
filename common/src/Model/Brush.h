@@ -35,8 +35,6 @@
 #include "Renderer/IndexArrayMapBuilder.h"
 #include "Renderer/TexturedIndexArrayBuilder.h"
 
-#include <vector>
-#include <set>
 
 namespace TrenchBroom {
     namespace Model {

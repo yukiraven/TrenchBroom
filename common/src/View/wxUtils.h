@@ -22,9 +22,7 @@
 
 #include "Color.h"
 
-#include <vector>
 
-#include <wx/colour.h>
 
 class wxBitmapButton;
 class wxBitmapToggleButton;

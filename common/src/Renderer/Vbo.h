@@ -23,9 +23,6 @@
 #include "SharedPointer.h"
 #include "Renderer/GL.h"
 
-#include <cassert>
-#include <cstring>
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

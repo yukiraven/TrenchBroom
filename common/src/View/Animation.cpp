@@ -21,11 +21,7 @@
 #include "Macros.h"
 #include "View/AnimationCurve.h"
 
-#include <algorithm>
-#include <cassert>
 
-#include <wx/app.h>
-#include <wx/timer.h>
 
 namespace TrenchBroom {
     namespace View {

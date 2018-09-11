@@ -23,9 +23,7 @@
 #include "StringUtils.h"
 #include "Logger.h"
 
-#include <vector>
 
-#include <wx/string.h>
 
 namespace TrenchBroom {
     namespace View {

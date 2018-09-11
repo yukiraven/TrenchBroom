@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_FlagChangedCommand
 #define TrenchBroom_FlagChangedCommand
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace Assets {

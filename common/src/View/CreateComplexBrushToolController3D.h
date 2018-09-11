@@ -26,7 +26,6 @@
 #include "View/ToolController.h"
 #include "View/ViewTypes.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

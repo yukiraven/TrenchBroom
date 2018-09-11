@@ -19,11 +19,7 @@
 
 #include "DiskIO.h"
 
-#include <wx/dir.h>
-#include <wx/filefn.h>
-#include <wx/filename.h>
 
-#include <fstream>
 
 namespace TrenchBroom {
     namespace IO {

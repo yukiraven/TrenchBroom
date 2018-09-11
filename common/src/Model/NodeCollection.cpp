@@ -25,8 +25,6 @@
 #include "Model/Layer.h"
 #include "Model/Node.h"
 
-#include <algorithm>
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

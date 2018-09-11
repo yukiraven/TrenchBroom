@@ -26,8 +26,6 @@
 #include "Model/MapFacade.h"
 #include "Model/PushSelection.h"
 
-#include <cassert>
-#include <map>
 
 namespace TrenchBroom {
     namespace Model {

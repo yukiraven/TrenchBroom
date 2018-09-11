@@ -21,7 +21,6 @@
 #include "Macros.h"
 #include "Model/BrushFace.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

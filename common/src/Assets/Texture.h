@@ -25,8 +25,6 @@
 #include "StringUtils.h"
 #include "Renderer/GL.h"
 
-#include <cassert>
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

@@ -22,7 +22,6 @@
 
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
 namespace TrenchBroom {
     namespace Model {

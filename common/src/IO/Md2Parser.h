@@ -26,7 +26,6 @@
 #include "Assets/Md2Model.h"
 #include "IO/EntityModelParser.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

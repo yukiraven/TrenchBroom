@@ -21,7 +21,6 @@
 #define TrenchBroom_ExecutableEvent
 
 #include "SharedPointer.h"
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace View {

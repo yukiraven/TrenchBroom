@@ -32,7 +32,6 @@
 #include "Model/ModelTypes.h"
 #include "Model/TexCoordSystem.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

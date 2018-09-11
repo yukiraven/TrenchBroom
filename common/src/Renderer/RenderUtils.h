@@ -25,7 +25,6 @@
 #include "Renderer/Vertex.h"
 #include "Renderer/VertexSpec.h"
 
-#include <utility>
 
 namespace TrenchBroom {
     namespace Assets {

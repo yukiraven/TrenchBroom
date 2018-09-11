@@ -25,8 +25,6 @@
 #include "IO/Path.h"
 #include "Model/ModelTypes.h"
 
-#include <map>
-#include <vector>
 
 namespace TrenchBroom {
     class Logger;

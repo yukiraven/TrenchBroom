@@ -26,7 +26,6 @@
 #include "IO/Path.h"
 #include "Renderer/GL.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

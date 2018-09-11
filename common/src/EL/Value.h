@@ -24,8 +24,6 @@
 #include "SharedPointer.h"
 #include "EL/Types.h"
 
-#include <algorithm>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace EL {

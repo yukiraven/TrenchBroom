@@ -23,7 +23,6 @@
 #include "View/KeyboardShortcutEditor.h"
 #include "View/KeyboardShortcutEvent.h"
 
-#include <wx/msgdlg.h>
 
 namespace TrenchBroom {
     namespace View {

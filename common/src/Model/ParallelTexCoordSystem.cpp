@@ -22,7 +22,6 @@
 #include "Model/ParaxialTexCoordSystem.h"
 #include "Model/BrushFace.h"
 
-#include <cstddef>
 
 namespace TrenchBroom {
     namespace Model {

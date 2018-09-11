@@ -23,11 +23,7 @@
 #include "SharedPointer.h"
 #include "View/ExecutableEvent.h"
 
-#include <map>
-#include <vector>
 
-#include <wx/longlong.h>
-#include <wx/thread.h>
 
 namespace TrenchBroom {
     namespace View {

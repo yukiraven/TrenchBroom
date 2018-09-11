@@ -19,7 +19,6 @@
 
 #include "MapView.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

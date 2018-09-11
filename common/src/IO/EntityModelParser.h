@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_EntityModelParser
 #define TrenchBroom_EntityModelParser
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace Assets {

@@ -22,7 +22,6 @@
 
 #include "View/MapView.h"
 
-#include <wx/panel.h>
 
 namespace TrenchBroom {
     namespace View {

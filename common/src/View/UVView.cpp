@@ -43,10 +43,6 @@
 #include "View/UVShearTool.h"
 #include "View/UVOriginTool.h"
 
-#include <algorithm>
-#include <cassert>
-#include <iostream>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace View {

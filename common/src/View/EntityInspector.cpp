@@ -30,10 +30,6 @@
 #include "View/ViewConstants.h"
 #include "View/MapDocument.h"
 
-#include <wx/event.h>
-#include <wx/notebook.h>
-#include <wx/persist.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

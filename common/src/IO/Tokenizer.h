@@ -24,8 +24,6 @@
 #include "Token.h"
 #include "SharedPointer.h"
 
-#include <cassert>
-#include <stack>
 
 namespace TrenchBroom {
     namespace IO {

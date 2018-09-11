@@ -20,9 +20,7 @@
 #ifndef CompilationRunner_h
 #define CompilationRunner_h
 
-#include <wx/event.h>
 
-#include <list>
 
 wxDECLARE_EVENT(wxEVT_COMPILATION_START, wxNotifyEvent);
 wxDECLARE_EVENT(wxEVT_COMPILATION_END, wxNotifyEvent);

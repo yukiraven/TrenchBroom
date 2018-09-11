@@ -23,8 +23,6 @@
 #include "View/InputState.h"
 #include "View/PickRequest.h"
 
-#include <wx/gdicmn.h>
-#include <wx/longlong.h>
 
 class wxWindow;
 class wxKeyEvent;

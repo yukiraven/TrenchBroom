@@ -23,7 +23,6 @@
 #include "Exceptions.h"
 #include "Ensure.h"
 
-#include <cassert>
 
 // This macro is used to silence compiler warnings about unused variables. These are usually only used in assertions
 // and thus may become unused in release builds.

@@ -22,7 +22,6 @@
 
 #include "StringUtils.h"
 
-#include <wx/dnd.h>
 
 namespace TrenchBroom {
     namespace View {

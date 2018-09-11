@@ -19,9 +19,6 @@
 
 #include "TitleBar.h"
 
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
 
 #include "View/ViewConstants.h"
 

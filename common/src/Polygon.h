@@ -24,10 +24,6 @@
 #include "CollectionUtils.h"
 #include "Vec.h"
 
-#include <algorithm>
-#include <cassert>
-#include <limits>
-#include <vector>
 
 namespace TrenchBroom {
     template <typename T, size_t S>

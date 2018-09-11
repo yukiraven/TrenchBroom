@@ -26,9 +26,7 @@
 #include "View/MapViewContainer.h"
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     class Logger;

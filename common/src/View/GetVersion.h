@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_GetVersion_h
 #define TrenchBroom_GetVersion_h
 
-#include <wx/string.h>
 
 namespace TrenchBroom {
     namespace View {

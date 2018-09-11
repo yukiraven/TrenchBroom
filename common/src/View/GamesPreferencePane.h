@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_GamesPreferencePane
 #define TrenchBroom_GamesPreferencePane
 
-#include <iostream>
 
 #include "View/PreferencePane.h"
 

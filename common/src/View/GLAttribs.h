@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_GLAttribs_h
 #define TrenchBroom_GLAttribs_h
 
-#include <vector>
 
 class wxGLAttributes;
 

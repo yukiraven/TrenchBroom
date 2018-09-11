@@ -22,9 +22,7 @@
 
 #include "StringUtils.h"
 
-#include <wx/grid.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

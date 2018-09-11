@@ -23,7 +23,6 @@
 #include "CollectionUtils.h"
 #include "Renderer/GL.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

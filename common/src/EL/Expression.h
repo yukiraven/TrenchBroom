@@ -24,8 +24,6 @@
 #include "SharedPointer.h"
 #include "EL/Value.h"
 
-#include <list>
-#include <memory>
 
 namespace TrenchBroom {
     namespace EL {

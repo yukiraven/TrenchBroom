@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_CameraLinkHelper
 #define TrenchBroom_CameraLinkHelper
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

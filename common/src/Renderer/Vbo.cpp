@@ -22,8 +22,6 @@
 #include "Exceptions.h"
 #include "Renderer/VboBlock.h"
 
-#include <algorithm>
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Renderer {

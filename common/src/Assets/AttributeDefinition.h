@@ -23,7 +23,6 @@
 #include "StringUtils.h"
 #include "Exceptions.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

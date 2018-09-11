@@ -22,14 +22,6 @@
 
 #include "Macros.h"
 
-#include <cassert>
-#include <cstdarg>
-#include <locale>
-#include <map>
-#include <set>
-#include <sstream>
-#include <string>
-#include <vector>
 
 using String = std::string;
 using StringStream = std::stringstream;

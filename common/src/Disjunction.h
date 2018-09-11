@@ -20,7 +20,6 @@
 #ifndef TRENCHBROOM_DISJUNCTION_H
 #define TRENCHBROOM_DISJUNCTION_H
 
-#include <cstddef>
 
 namespace TrenchBroom {
     /**

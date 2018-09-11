@@ -27,7 +27,6 @@
 #include "Model/ModelTypes.h"
 #include "View/DocumentCommand.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace View {

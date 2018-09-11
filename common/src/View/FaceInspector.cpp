@@ -32,9 +32,6 @@
 #include "View/TitledPanel.h"
 #include "View/ViewConstants.h"
 
-#include <wx/notebook.h>
-#include <wx/persist.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

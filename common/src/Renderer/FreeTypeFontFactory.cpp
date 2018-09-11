@@ -26,7 +26,6 @@
 #include "Renderer/FontTexture.h"
 #include "Renderer/TextureFont.h"
 
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace Renderer {

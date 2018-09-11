@@ -24,9 +24,6 @@
 #include "Exceptions.h"
 #include "TemporarilySetAny.h"
 
-#include <algorithm>
-#include <cassert>
-#include <list>
 
 namespace TrenchBroom {
     template <typename O>

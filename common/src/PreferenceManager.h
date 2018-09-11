@@ -26,7 +26,6 @@
 #include "StringUtils.h"
 #include "View/KeyboardShortcut.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

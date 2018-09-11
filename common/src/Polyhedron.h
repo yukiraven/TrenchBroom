@@ -25,10 +25,6 @@
 #include "DoublyLinkedList.h"
 #include "VecMath.h"
 
-#include <cassert>
-#include <queue>
-#include <limits>
-#include <vector>
 
 template <typename T, typename FP, typename VP>
 class Polyhedron {

@@ -19,7 +19,6 @@
 
 #include "wxKeyStrings.h"
 
-#include <wx/defs.h>
 
 namespace TrenchBroom {
     namespace View {

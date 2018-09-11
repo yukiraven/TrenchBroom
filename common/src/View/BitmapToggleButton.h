@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_BitmapToggleButton
 #define TrenchBroom_BitmapToggleButton
 
-#include <wx/bitmap.h>
-#include <wx/control.h>
 
 namespace TrenchBroom {
     namespace View {

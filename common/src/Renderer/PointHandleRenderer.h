@@ -26,7 +26,6 @@
 #include "Renderer/Circle.h"
 #include "Renderer/Renderable.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace Renderer {

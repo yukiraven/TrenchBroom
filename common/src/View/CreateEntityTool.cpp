@@ -38,7 +38,6 @@
 #include "View/Grid.h"
 #include "View/MapDocument.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

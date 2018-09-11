@@ -22,9 +22,7 @@
 
 #include "View/ContainerBar.h"
 
-#include <wx/stattext.h>
 
-#include <vector>
 
 class wxBookCtrlEvent;
 class wxSimplebook;

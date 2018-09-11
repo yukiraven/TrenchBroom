@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_BorderLine
 #define TrenchBroom_BorderLine
 
-#include <wx/window.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -24,7 +24,6 @@
 #include "VecMath.h"
 #include "Reference.h"
 
-#include <list>
 
 namespace TrenchBroom {
     namespace Model {

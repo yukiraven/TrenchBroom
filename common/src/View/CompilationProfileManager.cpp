@@ -28,8 +28,6 @@
 #include "View/ViewConstants.h"
 #include "View/wxUtils.h"
 
-#include <wx/settings.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -24,7 +24,6 @@
 #include "Assets/AssetTypes.h"
 #include "Assets/EntityDefinition.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

@@ -19,7 +19,6 @@
 
 #include "FontDescriptor.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Renderer {

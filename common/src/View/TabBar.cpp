@@ -23,14 +23,7 @@
 #include "View/TabBook.h"
 #include "View/ViewConstants.h"
 
-#include <wx/button.h>
-#include <wx/settings.h>
-#include <wx/simplebook.h>
-#include <wx/sizer.h>
-#include <wx/statline.h>
 
-#include <cassert>
-#include <iostream>
 
 namespace TrenchBroom {
     namespace View {

@@ -31,9 +31,6 @@
 #include "View/VertexCommand.h"
 #include "View/VertexCommand.h"
 
-#include <cassert>
-#include <numeric>
-#include <tuple>
 
 namespace TrenchBroom {
     namespace View {

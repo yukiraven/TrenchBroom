@@ -20,7 +20,6 @@
 #ifndef GameEngineProfileEditor_h
 #define GameEngineProfileEditor_h
 
-#include <wx/panel.h>
 
 class wxSimplebook;
 class wxTextCtrl;

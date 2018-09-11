@@ -26,9 +26,6 @@
 #include "SharedPointer.h"
 #include "Model/BrushGeometry.h"
 
-#include <map>
-#include <set>
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

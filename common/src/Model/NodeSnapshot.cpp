@@ -19,7 +19,6 @@
 
 #include "NodeSnapshot.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

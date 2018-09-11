@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_PopupButton
 #define TrenchBroom_PopupButton
 
-#include <wx/panel.h>
 
 class wxToggleButton;
 class wxCommandEvent;

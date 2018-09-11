@@ -19,8 +19,6 @@
 
 #include "TrenchBroomApp.h"
 
-#include <clocale>
-#include <fstream>
 
 #include "GLInit.h"
 #include "Macros.h"
@@ -44,15 +42,6 @@
 #include "View/GetVersion.h"
 #include "View/MapViewBase.h"
 
-#include <wx/choicdlg.h>
-#include <wx/cmdline.h>
-#include <wx/filedlg.h>
-#include <wx/generic/helpext.h>
-#include <wx/platinfo.h>
-#include <wx/utils.h>
-#include <wx/stdpaths.h>
-#include <wx/msgdlg.h>
-#include <wx/time.h>
 
 namespace TrenchBroom {
     namespace View {

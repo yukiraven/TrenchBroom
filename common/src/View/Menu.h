@@ -26,8 +26,6 @@
 #include "View/Action.h"
 #include "View/KeyboardShortcutEntry.h"
 
-#include <vector>
-#include <map>
 
 class wxMenu;
 class wxMenuBar;

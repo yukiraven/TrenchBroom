@@ -23,9 +23,6 @@
 #include "Polyhedron.h"
 #include "Relation.h"
 
-#include <limits>
-#include <list>
-#include <map>
 
 /**
  * This template is used to match the faces of two polyhedra. The two polyhedra are expected to have the majority of

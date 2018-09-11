@@ -23,11 +23,6 @@
 #include "VecMath.h"
 #include "Macros.h"
 
-#include <algorithm>
-#include <cassert>
-#include <limits>
-#include <memory>
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

@@ -25,7 +25,6 @@
 #include "View/TextureBrowserView.h"
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
 class wxChoice;
 class wxToggleButton;

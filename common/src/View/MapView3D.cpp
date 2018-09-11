@@ -66,7 +66,6 @@
 #include "View/VertexToolController.h"
 #include "View/wxUtils.h"
 
-#include <wx/frame.h>
 
 namespace TrenchBroom {
     namespace View {

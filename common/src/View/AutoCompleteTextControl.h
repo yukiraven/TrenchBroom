@@ -22,10 +22,7 @@
 
 #include "View/ControlListBox.h"
 
-#include <wx/popupwin.h>
-#include <wx/textctrl.h>
 
-#include <vector>
 
 wxDECLARE_EVENT(wxEVT_DELAYED_TEXT, wxCommandEvent);
 

@@ -22,8 +22,6 @@
 #include "View/ToolBox.h"
 #include "View/ToolChain.h"
 
-#include <wx/window.h>
-#include <wx/time.h>
 
 namespace TrenchBroom {
     namespace View {

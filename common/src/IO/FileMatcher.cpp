@@ -21,7 +21,6 @@
 
 #include "IO/Path.h"
 
-#include <wx/filename.h>
 
 namespace TrenchBroom {
     namespace IO {

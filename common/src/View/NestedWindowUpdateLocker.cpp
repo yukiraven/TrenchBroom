@@ -19,9 +19,7 @@
 
 #include "NestedWindowUpdateLocker.h"
 
-#include <wx/window.h>
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

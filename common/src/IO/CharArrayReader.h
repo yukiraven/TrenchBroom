@@ -24,13 +24,8 @@
 
 #include "VecMath.h"
 
-#include <cstdio>
-#include <iostream>
-#include <iterator>
-#include <vector>
 
 #ifdef _MSC_VER
-#include <cstdint>
 #elif defined __GNUC__
 #include <stdint.h>
 #endif

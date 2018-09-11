@@ -25,7 +25,6 @@
 #include "IO/ELParser.h"
 #include "IO/Path.h"
 
-#include <memory>
 
 namespace TrenchBroom {
     namespace IO {

@@ -21,9 +21,6 @@
 
 #include "Exceptions.h"
 
-#include <algorithm>
-#include <cassert>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace IO {

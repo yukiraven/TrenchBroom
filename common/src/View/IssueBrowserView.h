@@ -25,9 +25,7 @@
 #include "Model/Issue.h"
 #include "Model/ModelTypes.h"
 
-#include <wx/listctrl.h>
 
-#include <vector>
 
 class wxWindow;
 

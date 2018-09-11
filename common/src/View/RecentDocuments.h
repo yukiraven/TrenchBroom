@@ -24,12 +24,7 @@
 #include "Notifier.h"
 #include "IO/Path.h"
 
-#include <vector>
 
-#include <wx/config.h>
-#include <wx/confbase.h>
-#include <wx/event.h>
-#include <wx/menu.h>
 
 namespace TrenchBroom {
     namespace View {

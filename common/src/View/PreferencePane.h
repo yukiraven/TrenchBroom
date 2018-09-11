@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_PreferencePane
 #define TrenchBroom_PreferencePane
 
-#include <wx/panel.h>
-#include <wx/slider.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -23,7 +23,6 @@
 #include "Renderer/GL.h"
 #include "Renderer/TexturedIndexArrayMap.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

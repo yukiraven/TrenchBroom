@@ -24,7 +24,6 @@
 #include "IO/ImageFileSystem.h"
 #include "IO/Path.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

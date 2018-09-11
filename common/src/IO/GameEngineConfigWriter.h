@@ -23,7 +23,6 @@
 #include "EL.h"
 #include "Macros.h"
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace Model {

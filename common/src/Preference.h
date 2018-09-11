@@ -27,11 +27,7 @@
 #include "IO/Path.h"
 #include "View/KeyboardShortcut.h"
 
-#include <memory>
 
-#include <wx/config.h>
-#include <wx/confbase.h>
-#include <wx/tokenzr.h>
 
 namespace TrenchBroom {
     template <typename T>

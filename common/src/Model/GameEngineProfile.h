@@ -25,7 +25,6 @@
 #include "StringUtils.h"
 #include "IO/Path.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

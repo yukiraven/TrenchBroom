@@ -21,10 +21,7 @@
 
 #include "IO/ResourceUtils.h"
 
-#include <wx/bookctrl.h>
-#include <wx/panel.h>
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

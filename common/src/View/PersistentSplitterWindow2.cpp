@@ -21,7 +21,6 @@
 
 #include "View/SplitterWindow2.h"
 
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace View {

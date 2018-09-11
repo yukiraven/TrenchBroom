@@ -20,10 +20,7 @@
 #ifndef RadioGroup_h
 #define RadioGroup_h
 
-#include <wx/ctrlsub.h>
-#include <wx/control.h>
 
-#include <vector>
 
 class wxRadioButton;
 

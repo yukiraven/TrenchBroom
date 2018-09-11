@@ -27,8 +27,6 @@
 #include "Renderer/Renderable.h"
 #include "Renderer/VertexArray.h"
 
-#include <vector>
-#include <memory>
 
 namespace TrenchBroom {
     namespace Renderer {

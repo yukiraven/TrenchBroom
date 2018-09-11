@@ -20,7 +20,6 @@ along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
 #ifndef TrenchBroom_Ensure_h
 #define TrenchBroom_Ensure_h
 
-#include <string>
 
 namespace TrenchBroom {
     void ensureFailed(const char *file, int line, const char *condition, const std::string& message);

@@ -22,7 +22,6 @@
 
 #include "Macros.h"
 
-#include <iterator>
 
 template <typename T, typename FP, typename VP>
 typename DoublyLinkedList<typename Polyhedron<T,FP,VP>::Face, typename Polyhedron<T,FP,VP>::GetFaceLink>::Link& Polyhedron<T,FP,VP>::GetFaceLink::operator()(Face* face) const {

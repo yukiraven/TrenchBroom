@@ -23,9 +23,6 @@
 #include "Quat.h"
 #include "Vec.h"
 
-#include <algorithm>
-#include <cassert>
-#include <iterator>
 
 template <typename T, size_t R, size_t C>
 class Mat {

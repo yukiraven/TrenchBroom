@@ -22,7 +22,6 @@
 
 #include "View/CompilationRun.h"
 
-#include <wx/dialog.h>
 
 class wxStaticText;
 class wxTextCtrl;

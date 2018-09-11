@@ -20,12 +20,6 @@ along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
 #ifndef TrenchBroom_MathUtils_h
 #define TrenchBroom_MathUtils_h
 
-#include <algorithm>
-#include <cassert>
-#include <cmath>
-#include <cstddef>
-#include <limits>
-#include <type_traits>
 
 namespace Math {
     template <typename T>

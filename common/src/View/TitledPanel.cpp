@@ -23,7 +23,6 @@
 #include "View/TitleBar.h"
 #include "View/ViewConstants.h"
 
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

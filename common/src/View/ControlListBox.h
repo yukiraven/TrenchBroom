@@ -20,10 +20,7 @@
 #ifndef ControlListBox_h
 #define ControlListBox_h
 
-#include <wx/event.h>
-#include <wx/scrolwin.h>
 
-#include <vector>
 
 wxDECLARE_EVENT(wxEVT_LISTBOX_RCLICK, wxCommandEvent);
 

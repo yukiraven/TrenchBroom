@@ -26,7 +26,6 @@
 #include "Renderer/TexturedIndexRangeMapBuilder.h"
 #include "Renderer/TexturedIndexRangeRenderer.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Assets {

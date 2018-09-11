@@ -22,7 +22,6 @@
 #include "Macros.h"
 #include "Renderer/Camera.h"
 
-#include <wx/utils.h>
 
 namespace TrenchBroom {
     namespace View {

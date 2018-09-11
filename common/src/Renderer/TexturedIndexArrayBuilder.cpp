@@ -19,7 +19,6 @@
 
 #include "TexturedIndexArrayBuilder.h"
 
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace Renderer {

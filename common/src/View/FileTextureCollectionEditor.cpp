@@ -29,12 +29,6 @@
 #include "View/ViewUtils.h"
 #include "View/wxUtils.h"
 
-#include <wx/bmpbuttn.h>
-#include <wx/filedlg.h>
-#include <wx/listbox.h>
-#include <wx/panel.h>
-#include <wx/settings.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

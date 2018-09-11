@@ -25,7 +25,6 @@
 #include "IO/ParserStatus.h"
 #include "IO/Token.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

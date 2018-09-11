@@ -22,7 +22,6 @@
 
 #include "StringUtils.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace IO {

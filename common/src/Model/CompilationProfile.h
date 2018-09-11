@@ -24,7 +24,6 @@
 #include "StringUtils.h"
 #include "Model/CompilationTask.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

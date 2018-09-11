@@ -26,8 +26,6 @@
 #include "Assets/TextureCollection.h"
 #include "IO/TextureLoader.h"
 
-#include <algorithm>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace Assets {

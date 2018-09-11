@@ -23,10 +23,6 @@
 #include "View/ViewConstants.h"
 #include "View/wxUtils.h"
 
-#include <wx/gbsizer.h>
-#include <wx/panel.h>
-#include <wx/radiobut.h>
-#include <wx/stattext.h>
 
 namespace TrenchBroom {
     namespace View {

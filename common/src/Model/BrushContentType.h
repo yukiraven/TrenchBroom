@@ -24,7 +24,6 @@
 #include "SharedPointer.h"
 #include "Model/ModelTypes.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

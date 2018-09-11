@@ -23,13 +23,6 @@ along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
 #include "MathUtils.h"
 #include "StringUtils.h"
 
-#include <algorithm>
-#include <cassert>
-#include <cstddef>
-#include <map>
-#include <ostream>
-#include <type_traits>
-#include <vector>
 
 template <typename T, size_t S>
 class Vec {

@@ -29,7 +29,6 @@
 #include "Renderer/Vbo.h"
 #include "Renderer/VertexSpec.h"
 
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace Renderer {

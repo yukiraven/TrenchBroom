@@ -22,8 +22,6 @@
 #include "CollectionUtils.h"
 #include "Assets/AttributeDefinition.h"
 
-#include <algorithm>
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Assets {

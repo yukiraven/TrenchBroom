@@ -20,7 +20,6 @@
 #ifndef GameEngineProfileManager_h
 #define GameEngineProfileManager_h
 
-#include <wx/panel.h>
 
 namespace TrenchBroom {
     namespace Model {

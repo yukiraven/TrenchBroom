@@ -24,7 +24,6 @@
 #include "View/Menu.h"
 #include "View/wxKeyStrings.h"
 
-#include <wx/menu.h>
 
 namespace TrenchBroom {
     namespace View {

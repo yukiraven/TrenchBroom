@@ -21,8 +21,6 @@
 #define TrenchBroom_ResourceUtils
 
 #include "StringUtils.h"
-#include <wx/bitmap.h>
-#include <wx/icon.h>
 
 namespace TrenchBroom {
     namespace IO {

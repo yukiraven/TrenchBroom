@@ -24,7 +24,6 @@
 #include "Model/Entity.h"
 #include "Model/World.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

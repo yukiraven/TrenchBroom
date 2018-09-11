@@ -23,7 +23,6 @@
 #include "Model/ModelUtils.h"
 #include "View/MapDocumentCommandFacade.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

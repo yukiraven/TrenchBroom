@@ -23,7 +23,6 @@
 #include "IO/NodeSerializer.h"
 #include "Model/MapFormat.h"
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace IO {

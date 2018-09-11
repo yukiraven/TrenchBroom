@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_TitleBar
 #define TrenchBroom_TitleBar
 
-#include <wx/window.h>
 
 class wxStaticText;
 

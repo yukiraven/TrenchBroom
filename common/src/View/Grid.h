@@ -28,7 +28,6 @@
 #include "Notifier.h"
 #include "Model/ModelTypes.h"
 
-#include <array>
 
 namespace TrenchBroom {
     namespace View {

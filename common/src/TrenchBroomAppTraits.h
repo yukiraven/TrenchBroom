@@ -20,7 +20,6 @@
 #ifndef TrenchBroomAppTraits_h
 #define TrenchBroomAppTraits_h
 
-#include <wx/apptrait.h>
 
 namespace TrenchBroom {
     class TrenchBroomAppTraits : public wxGUIAppTraits {

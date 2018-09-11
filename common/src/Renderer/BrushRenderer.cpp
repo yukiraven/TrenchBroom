@@ -33,8 +33,6 @@
 #include "Renderer/TexturedIndexArrayBuilder.h"
 #include "Renderer/VertexSpec.h"
 
-#include <algorithm>
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Renderer {

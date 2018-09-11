@@ -27,8 +27,6 @@
 #include "Renderer/VertexArray.h"
 #include "Renderer/VertexSpec.h"
 
-#include <map>
-#include <vector>
 
 namespace TrenchBroom {
     class AttrString;

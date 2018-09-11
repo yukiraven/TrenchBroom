@@ -19,7 +19,6 @@
 
 #include "AttributableNodeVariableStore.h"
 
-#include <cassert>
 #include "Model/AttributableNode.h"
 
 namespace TrenchBroom {

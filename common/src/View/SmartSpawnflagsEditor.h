@@ -25,7 +25,6 @@
 #include "View/SmartAttributeEditor.h"
 #include "View/ViewTypes.h"
 
-#include <wx/gdicmn.h>
 
 class wxCheckBox;
 class wxColor;

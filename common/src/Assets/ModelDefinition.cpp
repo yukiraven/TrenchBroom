@@ -19,7 +19,6 @@
 
 #include "ModelDefinition.h"
 
-#include <cassert>
 
 #include "MathUtils.h"
 #include "Model/EntityAttributesVariableStore.h"

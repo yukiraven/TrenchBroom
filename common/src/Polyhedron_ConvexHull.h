@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_Polyhedron_ConvexHull_h
 #define TrenchBroom_Polyhedron_ConvexHull_h
 
-#include <list>
 
 template <typename T, typename FP, typename VP>
 class Polyhedron<T,FP,VP>::Seam {

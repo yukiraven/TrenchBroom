@@ -23,9 +23,7 @@
 #include "StringUtils.h"
 #include "View/ImageListBox.h"
 
-#include <wx/bitmap.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

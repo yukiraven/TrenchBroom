@@ -19,7 +19,6 @@
 
 #include "EntityDefinitionFileSpec.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Assets {

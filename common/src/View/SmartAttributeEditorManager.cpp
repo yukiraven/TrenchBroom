@@ -29,8 +29,6 @@
 #include "View/SmartAttributeEditorMatcher.h"
 #include "View/SmartSpawnflagsEditor.h"
 
-#include <wx/panel.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

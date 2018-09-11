@@ -24,8 +24,6 @@
 #include "Functor.h"
 #include "StringUtils.h"
 
-#include <cstddef>
-#include <vector>
 
 namespace TrenchBroom {
 #define GL_FALSE 0

@@ -19,7 +19,6 @@
 
 #include "Shader.h"
 
-#include <fstream>
 
 #include "Exceptions.h"
 

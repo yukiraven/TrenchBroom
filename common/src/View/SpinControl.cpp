@@ -19,11 +19,7 @@
 
 #include "SpinControl.h"
 
-#include <wx/sizer.h>
-#include <wx/spinbutt.h>
-#include <wx/textctrl.h>
 
-#include <limits>
 
 wxDEFINE_EVENT(SPIN_CONTROL_EVENT, TrenchBroom::View::SpinControlEvent);
 

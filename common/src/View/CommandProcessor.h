@@ -27,9 +27,7 @@
 #include "View/ViewTypes.h"
 
 // unfortunately we must depend on wx Widgets for time stamps here
-#include <wx/longlong.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

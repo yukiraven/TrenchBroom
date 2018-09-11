@@ -23,7 +23,6 @@
 #include "Model/Game.h"
 #include "View/MapDocument.h"
 
-#include <wx/thread.h>
 
 namespace TrenchBroom {
     namespace View {

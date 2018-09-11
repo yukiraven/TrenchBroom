@@ -27,9 +27,6 @@
 #include "Model/Brush.h"
 #include "Renderer/AllocationTracker.h"
 
-#include <tuple>
-#include <map>
-#include <unordered_map>
 
 namespace TrenchBroom {
     namespace Model {

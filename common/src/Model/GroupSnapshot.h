@@ -23,7 +23,6 @@
 #include "Model/ModelTypes.h"
 #include "Model/NodeSnapshot.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

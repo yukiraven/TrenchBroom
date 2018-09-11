@@ -19,8 +19,6 @@
 
 #include "ViewConstants.h"
 
-#include <wx/settings.h>
-#include <wx/font.h>
 
 namespace TrenchBroom {
     namespace View {

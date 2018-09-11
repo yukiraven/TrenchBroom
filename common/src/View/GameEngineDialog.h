@@ -22,7 +22,6 @@
 
 #include "StringUtils.h"
 
-#include <wx/dialog.h>
 
 class wxSimplebook;
 class wxTextCtrl;

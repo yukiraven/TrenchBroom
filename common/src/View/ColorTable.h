@@ -20,9 +20,7 @@
 #ifndef TrenchBroom_ColorTable
 #define TrenchBroom_ColorTable
 
-#include <wx/scrolwin.h>
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace View {

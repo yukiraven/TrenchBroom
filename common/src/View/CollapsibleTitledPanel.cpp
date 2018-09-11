@@ -22,8 +22,6 @@
 #include "View/BorderLine.h"
 #include "View/ViewConstants.h"
 
-#include <wx/sizer.h>
-#include <wx/stattext.h>
 
 wxDEFINE_EVENT(TITLE_BAR_CLICK, wxCommandEvent);
 

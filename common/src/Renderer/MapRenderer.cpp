@@ -45,7 +45,6 @@
 #include "View/Selection.h"
 #include "View/MapDocument.h"
 
-#include <set>
 
 namespace TrenchBroom {
     namespace Renderer {

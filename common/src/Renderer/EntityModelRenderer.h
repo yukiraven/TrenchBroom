@@ -25,8 +25,6 @@
 #include "Model/ModelTypes.h"
 #include "Renderer/Renderable.h"
 
-#include <map>
-#include <set>
 
 namespace TrenchBroom {
     namespace Assets {

@@ -25,7 +25,6 @@
 #include "Model/Brush.h"
 #include "Model/Node.h"
 
-#include <cstdio>
 
 namespace TrenchBroom {
     namespace IO {

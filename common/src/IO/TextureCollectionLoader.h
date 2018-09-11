@@ -24,8 +24,6 @@
 #include "IO/MappedFile.h"
 #include "IO/Path.h"
 
-#include <memory>
-#include <vector>
 
 namespace TrenchBroom {
     class Logger;

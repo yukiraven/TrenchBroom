@@ -22,7 +22,6 @@
 
 #include "View/MapViewContainer.h"
 
-#include <vector>
 
 class wxWindow;
 

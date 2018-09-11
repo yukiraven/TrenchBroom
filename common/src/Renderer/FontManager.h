@@ -22,7 +22,6 @@
 
 #include "Renderer/FontDescriptor.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace Renderer {

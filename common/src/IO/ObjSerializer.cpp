@@ -24,7 +24,6 @@
 #include "Model/BrushFace.h"
 #include "Model/BrushGeometry.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace IO {

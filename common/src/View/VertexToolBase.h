@@ -44,9 +44,6 @@
 #include "View/ViewTypes.h"
 #include "AddBrushVerticesCommand.h"
 
-#include <algorithm>
-#include <cassert>
-#include <numeric>
 
 namespace TrenchBroom {
     namespace Model {

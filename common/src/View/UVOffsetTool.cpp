@@ -26,7 +26,6 @@
 #include "View/MapDocument.h"
 #include "View/UVView.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

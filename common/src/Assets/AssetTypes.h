@@ -23,8 +23,6 @@
 #include "StringUtils.h"
 #include "SharedPointer.h"
 
-#include <map>
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

@@ -24,9 +24,7 @@
 #include "IO/Path.h"
 #include "IO/SystemPaths.h"
 
-#include <cassert>
 
-#include <wx/string.h>
 
 namespace TrenchBroom {
     FileLogger::FileLogger(const IO::Path& filePath) :

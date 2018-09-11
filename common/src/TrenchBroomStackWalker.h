@@ -20,7 +20,6 @@
 #ifndef TrenchBroomStackWalker_h
 #define TrenchBroomStackWalker_h
 
-#include <string>
 
 namespace TrenchBroom {
     class TrenchBroomStackWalker {

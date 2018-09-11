@@ -24,7 +24,6 @@
 #include "Preferences.h"
 #include "Renderer/MapRenderer.h"
 
-#include <wx/window.h>
 
 namespace TrenchBroom {
     namespace View {

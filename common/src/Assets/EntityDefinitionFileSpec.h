@@ -22,7 +22,6 @@
 
 #include "IO/Path.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Assets {

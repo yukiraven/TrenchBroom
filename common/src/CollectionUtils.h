@@ -20,14 +20,6 @@
 #ifndef TrenchBroom_CollectionUtils_h
 #define TrenchBroom_CollectionUtils_h
 
-#include <algorithm>
-#include <cstdarg>
-#include <iterator>
-#include <limits>
-#include <list>
-#include <map>
-#include <set>
-#include <vector>
 #include "SharedPointer.h"
 #include "Macros.h"
 

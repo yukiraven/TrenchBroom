@@ -30,7 +30,6 @@
 #include "Renderer/TriangleRenderer.h"
 #include "Renderer/Vbo.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace Assets {

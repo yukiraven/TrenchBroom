@@ -35,8 +35,6 @@
 #include "Model/PickResult.h"
 #include "Model/World.h"
 
-#include <algorithm>
-#include <iterator>
 
 namespace TrenchBroom {
     namespace Model {

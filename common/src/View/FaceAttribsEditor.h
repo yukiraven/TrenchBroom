@@ -23,7 +23,6 @@
 #include "Model/ModelTypes.h"
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
 class wxBitmap;
 class wxButton;

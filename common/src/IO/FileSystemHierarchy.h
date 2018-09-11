@@ -26,7 +26,6 @@
 #include "IO/FileSystem.h"
 #include "IO/Path.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace IO {

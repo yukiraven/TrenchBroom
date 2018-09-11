@@ -23,9 +23,6 @@
 #include "Model/CompilationProfile.h"
 #include "View/wxUtils.h"
 
-#include <wx/settings.h>
-#include <wx/stattext.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

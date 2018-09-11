@@ -32,7 +32,6 @@
 #include "View/InputState.h"
 #include "View/ResizeBrushesTool.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

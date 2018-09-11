@@ -20,9 +20,7 @@
 #ifndef TrenchBroom_FlagsEditor
 #define TrenchBroom_FlagsEditor
 
-#include <wx/panel.h>
 
-#include <vector>
 
 class wxCheckBox;
 class wxCommandEvent;

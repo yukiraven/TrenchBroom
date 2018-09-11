@@ -22,8 +22,6 @@
 
 #include "StringUtils.h"
 
-#include <map>
-#include <vector>
 
 namespace TrenchBroom {
     namespace EL {

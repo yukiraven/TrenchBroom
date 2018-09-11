@@ -23,13 +23,7 @@
 #include "View/MapDocument.h"
 #include "View/ViewConstants.h"
 
-#include <wx/combobox.h>
-#include <wx/panel.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/wupdlock.h>
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

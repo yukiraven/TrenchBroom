@@ -27,13 +27,7 @@
 #include "View/KeyboardShortcutEvent.h"
 #include "View/ViewConstants.h"
 
-#include <wx/checkbox.h>
-#include <wx/gbsizer.h>
-#include <wx/sizer.h>
-#include <wx/slider.h>
-#include <wx/stattext.h>
 
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace View {

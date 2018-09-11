@@ -22,7 +22,6 @@
 
 #include "View/TitleBar.h"
 
-#include <wx/panel.h>
 
 class wxStaticText;
 

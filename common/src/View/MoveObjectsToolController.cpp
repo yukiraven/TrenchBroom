@@ -28,7 +28,6 @@
 #include "Renderer/RenderContext.h"
 #include "View/MoveObjectsTool.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

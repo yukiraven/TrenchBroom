@@ -20,10 +20,6 @@
 #ifndef Relation_h
 #define Relation_h
 
-#include <cassert>
-#include <iterator>
-#include <map>
-#include <set>
 
 #include "Macros.h"
 

@@ -22,9 +22,7 @@
 
 #include "View/ViewTypes.h"
 
-#include <list>
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace IO {

@@ -23,9 +23,6 @@
 #include "View/ViewConstants.h"
 #include "View/PopupButton.h"
 
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
 
 namespace TrenchBroom {
     namespace View {

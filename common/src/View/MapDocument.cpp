@@ -110,8 +110,6 @@
 #include "View/TransformObjectsCommand.h"
 #include "View/ViewEffectsService.h"
 
-#include <cassert>
-#include <numeric>
 
 namespace TrenchBroom {
     namespace View {

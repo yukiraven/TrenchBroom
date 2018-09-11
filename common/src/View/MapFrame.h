@@ -27,8 +27,6 @@
 #include "View/ViewTypes.h"
 #include "SplitterWindow2.h"
 
-#include <wx/dialog.h>
-#include <wx/frame.h>
 
 class wxChoice;
 class wxTextCtrl;

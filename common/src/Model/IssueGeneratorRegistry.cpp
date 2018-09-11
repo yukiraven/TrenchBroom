@@ -22,7 +22,6 @@
 #include "CollectionUtils.h"
 #include "Model/IssueGenerator.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

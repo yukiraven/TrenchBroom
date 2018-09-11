@@ -26,12 +26,6 @@
 #include "Ray.h"
 #include "MathUtils.h"
 
-#include <algorithm>
-#include <cassert>
-#include <functional>
-#include <iostream>
-#include <list>
-#include <memory>
 
 template <typename T, size_t S, typename U, typename Cmp = std::less<U>>
 class AABBTree : public NodeTree<T,S,U,Cmp> {

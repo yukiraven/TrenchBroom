@@ -26,7 +26,6 @@
 #include "View/SmartAttributeEditor.h"
 #include "View/ViewTypes.h"
 
-#include <wx/colour.h>
 
 class wxColourPickerCtrl;
 class wxColourPickerEvent;

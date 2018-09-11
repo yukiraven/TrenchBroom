@@ -29,9 +29,6 @@
 #include "View/CompilationVariables.h"
 #include "View/MapDocument.h"
 
-#include <wx/process.h>
-#include <wx/sstream.h>
-#include <wx/timer.h>
 
 wxDECLARE_EVENT(wxEVT_TASK_START, wxNotifyEvent);
 wxDECLARE_EVENT(wxEVT_TASK_ERROR, wxNotifyEvent);

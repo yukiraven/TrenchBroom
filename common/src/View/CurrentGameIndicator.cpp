@@ -23,10 +23,6 @@
 #include "Model/GameFactory.h"
 #include "View/ViewConstants.h"
 
-#include <wx/settings.h>
-#include <wx/sizer.h>
-#include <wx/statbmp.h>
-#include <wx/stattext.h>
 
 namespace TrenchBroom {
     namespace View {

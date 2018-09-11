@@ -26,7 +26,6 @@
 #include "Assets/EntityDefinitionGroup.h"
 #include "Model/ModelTypes.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

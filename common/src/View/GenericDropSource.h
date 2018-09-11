@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_GenericDropSource
 #define TrenchBroom_GenericDropSource
 
-#include <wx/dnd.h>
 
 class wxWindow;
 

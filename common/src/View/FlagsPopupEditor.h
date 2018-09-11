@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_FlagsPopupEditor
 #define TrenchBroom_FlagsPopupEditor
 
-#include <wx/panel.h>
 
 class wxStaticText;
 class wxWindow;

@@ -22,7 +22,6 @@
 
 #include "IO/Path.h"
 
-#include <wx/dialog.h>
 
 class wxRadioButton;
 class wxWindow;

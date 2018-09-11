@@ -23,8 +23,6 @@
 #include "Model/EntityAttributes.h"
 #include "Model/ModelTypes.h"
 
-#include <map>
-#include <memory>
 
 namespace TrenchBroom {
     namespace IO {

@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_TextureSelectedCommand
 #define TrenchBroom_TextureSelectedCommand
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace Assets {

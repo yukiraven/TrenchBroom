@@ -26,11 +26,6 @@
 #include "View/SpinControl.h"
 #include "View/ViewConstants.h"
 
-#include <wx/button.h>
-#include <wx/choice.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/combobox.h>
 
 namespace TrenchBroom {
     namespace View {

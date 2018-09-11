@@ -19,7 +19,6 @@
 
 #include "Disjunction.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     Disjunction::Disjunction() : m_count(0) {}

@@ -24,7 +24,6 @@
 #include "Model/ModelTypes.h"
 #include "View/ViewTypes.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

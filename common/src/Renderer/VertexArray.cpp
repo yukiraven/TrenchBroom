@@ -19,8 +19,6 @@
 
 #include "VertexArray.h"
 
-#include <cassert>
-#include <limits>
 
 namespace TrenchBroom {
     namespace Renderer {

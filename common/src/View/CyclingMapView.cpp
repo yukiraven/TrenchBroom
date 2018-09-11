@@ -27,7 +27,6 @@
 #include "View/MapView2D.h"
 #include "View/MapView3D.h"
 
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -26,11 +26,7 @@
 #include "View/ExecutableEvent.h"
 #include "View/KeyboardShortcut.h"
 
-#include <wx/time.h>
-#include <wx/window.h>
-#include <wx/app.h>
 
-#include <array>
 
 namespace TrenchBroom {
     namespace View {

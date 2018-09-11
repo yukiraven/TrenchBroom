@@ -24,10 +24,6 @@
 #include "VecMath.h"
 #include "Model/ModelTypes.h"
 
-#include <cstdio>
-#include <list>
-#include <map>
-#include <vector>
 
 namespace TrenchBroom {
     namespace IO {

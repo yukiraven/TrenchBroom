@@ -22,7 +22,6 @@
 
 #include "Vec.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     template <typename T, size_t S>

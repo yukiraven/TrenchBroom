@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_SharedPointer_h
 #define TrenchBroom_SharedPointer_h
 
-#include <cassert>
-#include <memory>
 
 template <typename T>
 std::shared_ptr<T> lock(std::shared_ptr<T> ptr) {

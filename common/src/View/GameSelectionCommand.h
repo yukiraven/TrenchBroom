@@ -22,7 +22,6 @@
 
 #include "StringUtils.h"
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace View {

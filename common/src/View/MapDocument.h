@@ -36,7 +36,6 @@
 #include "View/UndoableCommand.h"
 #include "View/ViewTypes.h"
 
-#include <memory>
 
 class Color;
 namespace TrenchBroom {

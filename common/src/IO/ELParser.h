@@ -25,10 +25,8 @@
 #include "IO/Token.h"
 #include "IO/Tokenizer.h"
 
-#include <list>
 
 #ifdef _MSC_VER
-#include <cstdint>
 #elif defined __GNUC__
 #include <stdint.h>
 #endif

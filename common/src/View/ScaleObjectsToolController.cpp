@@ -33,7 +33,6 @@
 #include "View/ScaleObjectsTool.h"
 #include "View/MapDocument.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

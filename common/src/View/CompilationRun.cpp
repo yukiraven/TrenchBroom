@@ -28,8 +28,6 @@
 #include "View/MapDocument.h"
 #include "View/TextCtrlOutputAdapter.h"
 
-#include <wx/textctrl.h>
-#include <wx/thread.h>
 
 namespace TrenchBroom {
     namespace View {

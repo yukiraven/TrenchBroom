@@ -21,7 +21,6 @@
 
 #include "Model/BrushContentTypeEvaluator.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

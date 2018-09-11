@@ -26,7 +26,6 @@
 #include "View/Grid.h"
 #include "View/MapDocument.h"
 
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

@@ -24,7 +24,6 @@
 #include "VecMath.h"
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
 class wxButton;
 class wxChoice;

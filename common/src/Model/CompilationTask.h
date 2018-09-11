@@ -24,7 +24,6 @@
 #include "StringUtils.h"
 #include "IO/Path.h"
 
-#include <vector>
 
 class wxTimer;
 class wxTimerEvent;

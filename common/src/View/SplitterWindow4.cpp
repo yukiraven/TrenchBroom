@@ -24,13 +24,7 @@
 #include "View/ViewConstants.h"
 #include "View/wxUtils.h"
 
-#include <wx/control.h>
-#include <wx/dcclient.h>
-#include <wx/log.h>
 
-#include <cassert>
-#include <iostream>
-#include <algorithm>
 
 namespace TrenchBroom {
     namespace View {

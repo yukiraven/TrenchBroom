@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_KeyboardGridCellEditor
 #define TrenchBroom_KeyboardGridCellEditor
 
-#include <wx/grid.h>
 
 namespace TrenchBroom {
     namespace View {

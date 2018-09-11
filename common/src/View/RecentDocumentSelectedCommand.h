@@ -22,7 +22,6 @@
 
 #include "IO/Path.h"
 
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace View {

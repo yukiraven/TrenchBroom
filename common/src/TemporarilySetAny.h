@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_TemporarilySetAny
 #define TrenchBroom_TemporarilySetAny
 
-#include <cassert>
-#include <iostream>
 
 namespace TrenchBroom {
     template <typename T>

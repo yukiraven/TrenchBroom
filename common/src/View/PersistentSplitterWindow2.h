@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_PersistentSplitterWindow2
 #define TrenchBroom_PersistentSplitterWindow2
 
-#include <wx/persist/toplevel.h>
 
 namespace TrenchBroom {
     namespace View {

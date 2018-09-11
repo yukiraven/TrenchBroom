@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_CommandIds_h
 #define TrenchBroom_CommandIds_h
 
-#include <wx/window.h>
 
 namespace TrenchBroom {
     namespace View {

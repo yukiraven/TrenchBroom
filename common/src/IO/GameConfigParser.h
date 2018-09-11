@@ -26,7 +26,6 @@
 #include "Model/BrushContentType.h"
 #include "Model/GameConfig.h"
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace IO {

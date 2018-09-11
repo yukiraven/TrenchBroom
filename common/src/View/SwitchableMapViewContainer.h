@@ -26,7 +26,6 @@
 #include "View/MapView.h"
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
 class wxWindow;
 

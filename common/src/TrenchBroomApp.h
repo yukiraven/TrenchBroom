@@ -24,9 +24,7 @@
 #include "IO/Path.h"
 #include "View/FrameManager.h"
 #include "View/RecentDocuments.h"
-#include <wx/app.h>
 
-#include <functional>
 
 class wxExtHelpController;
 

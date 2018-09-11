@@ -22,11 +22,7 @@
 
 #include "VecMath.h"
 
-#include <iostream>
 
-#include <wx/thread.h>
-#include <wx/gdicmn.h>
-#include <wx/longlong.h>
 
 class wxWindow;
 class wxKeyEvent;

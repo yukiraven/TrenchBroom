@@ -29,10 +29,6 @@
 #include "Renderer/Camera.h"
 #include "View/ViewTypes.h"
 
-#include <algorithm>
-#include <functional>
-#include <iterator>
-#include <map>
 
 namespace TrenchBroom {
     namespace Model {

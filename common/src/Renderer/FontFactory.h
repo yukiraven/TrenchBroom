@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_FontFactory
 #define TrenchBroom_FontFactory
 
-#include <iostream>
 
 namespace TrenchBroom {
     namespace Renderer {

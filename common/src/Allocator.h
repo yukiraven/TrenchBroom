@@ -20,11 +20,6 @@
 #ifndef TrenchBroom_Allocator_h
 #define TrenchBroom_Allocator_h
 
-#include <cassert>
-#include <iostream>
-#include <limits>
-#include <stack>
-#include <vector>
 
 // Undefine this to prevent false positives when looking for memory leaks.
 #define TB_ENABLE_ALLOCATOR 1

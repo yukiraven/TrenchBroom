@@ -26,7 +26,6 @@
 #include "IO/CharArrayReader.h"
 #include "IO/Path.h"
 
-#include <cstring>
 
 namespace TrenchBroom {
     namespace IO {

@@ -19,12 +19,7 @@
 
 #include "TrenchBroomAppTraits.h"
 
-#include <iostream>
 
-#include <wx/app.h>
-#include <wx/fileconf.h>
-#include <wx/filename.h>
-#include <wx/stdpaths.h>
 
 namespace TrenchBroom {
     TrenchBroomAppTraits::~TrenchBroomAppTraits() {}

@@ -26,7 +26,6 @@
 #include "Renderer/FontGlyph.h"
 #include "Renderer/FontGlyphBuilder.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Renderer {

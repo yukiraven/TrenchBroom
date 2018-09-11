@@ -27,8 +27,6 @@
 #include "View/MapView3D.h"
 #include "View/SplitterWindow4.h"
 
-#include <wx/persist.h>
-#include <wx/sizer.h>
 
 namespace TrenchBroom {
     namespace View {

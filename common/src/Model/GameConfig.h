@@ -28,7 +28,6 @@
 #include "Model/GameEngineConfig.h"
 #include "Model/ModelTypes.h"
 
-#include <vector>
 
 namespace TrenchBroom {
     namespace Model {

@@ -19,9 +19,6 @@
 
 #include "Renderer/BrushRendererArrays.h"
 
-#include <cassert>
-#include <algorithm>
-#include <cstring>
 
 namespace TrenchBroom {
     // BrushIndexArray

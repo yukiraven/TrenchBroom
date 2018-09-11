@@ -23,9 +23,7 @@
 #include "Model/BrushContentType.h"
 #include "View/ViewTypes.h"
 
-#include <wx/panel.h>
 
-#include <vector>
 
 class wxCheckBox;
 class wxWindow;

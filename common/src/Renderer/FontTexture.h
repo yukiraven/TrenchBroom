@@ -24,7 +24,6 @@
 
 #include "Renderer/GL.h"
 
-#include <memory>
 
 namespace TrenchBroom {
     namespace Renderer {

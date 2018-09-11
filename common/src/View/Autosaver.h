@@ -23,7 +23,6 @@
 #include "IO/Path.h"
 #include "View/ViewTypes.h"
 
-#include <ctime>
 
 namespace TrenchBroom {
     class Logger;

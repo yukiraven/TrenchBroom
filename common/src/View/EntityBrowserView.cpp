@@ -40,7 +40,6 @@
 #include "View/ViewUtils.h"
 #include "View/wxUtils.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace View {

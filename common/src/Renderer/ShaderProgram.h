@@ -25,7 +25,6 @@
 #include "Mat.h"
 #include "Renderer/GL.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace Renderer {

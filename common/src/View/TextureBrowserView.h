@@ -28,7 +28,6 @@
 #include "Renderer/VertexSpec.h"
 #include "View/CellView.h"
 
-#include <map>
 
 class wxScrollBar;
 

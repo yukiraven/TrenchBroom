@@ -30,7 +30,6 @@
 #include "Model/RemoveEntityAttributesQuickFix.h"
 #include "Model/TransformEntityAttributesQuickFix.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace Model {

@@ -24,8 +24,6 @@
 #include "Exceptions.h"
 #include "IO/Path.h"
 
-#include <istream>
-#include <vector>
 
 #ifdef _WIN32
 // can't include Windows.h here

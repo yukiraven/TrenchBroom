@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_ColorTableSelectedCommand
 #define TrenchBroom_ColorTableSelectedCommand
 
-#include <wx/colour.h>
-#include <wx/event.h>
 
 namespace TrenchBroom {
     namespace View {
