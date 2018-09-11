@@ -89,6 +89,7 @@ IF(WIN32)
 ENDIF()
 
 ADD_EXECUTABLE(TrenchBroom WIN32 MACOSX_BUNDLE ${APP_SOURCE} $<TARGET_OBJECTS:common>)
+target_precompiled_header(TrenchBroom Prefix.h)
 
 IF(COMPILER_IS_GNU AND TB_ENABLE_ASAN)
     TARGET_LINK_LIBRARIES(TrenchBroom asan)

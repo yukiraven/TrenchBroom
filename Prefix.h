@@ -45,6 +45,9 @@
 #include <unordered_map>
 #include <utility>
 #include <vector>
+
+#include <GL/glew.h>
+
 #include <wx/accel.h>
 #include <wx/app.h>
 #include <wx/apptrait.h>
