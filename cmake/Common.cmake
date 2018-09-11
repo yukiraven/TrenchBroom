@@ -13,7 +13,7 @@ FILE(GLOB_RECURSE COMMON_HEADER
 #IF(NOT CMAKE_GENERATOR STREQUAL "Xcode")
 	ADD_LIBRARY(common SHARED ${COMMON_SOURCE} ${COMMON_HEADER})
     
-    target_precompiled_header(common common/src/Prefix.h)
+    target_precompiled_header(common Prefix.h)
 
 	SET_XCODE_ATTRIBUTES(common)
 #ENDIF()

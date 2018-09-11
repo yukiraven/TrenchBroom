@@ -22,6 +22,9 @@ ADD_EXECUTABLE(TrenchBroom-Benchmark ${BENCHMARK_SOURCE})
 target_link_libraries(TrenchBroom-Test common)
 target_link_libraries(TrenchBroom-Benchmark common)
 
+target_precompiled_header(TrenchBroom-Test Prefix.h)
+target_precompiled_header(TrenchBroom-Benchmark Prefix.h)
+
 IF(COMPILER_IS_GNU AND TB_ENABLE_ASAN)
 	TARGET_LINK_LIBRARIES(TrenchBroom-Test asan)
 	TARGET_LINK_LIBRARIES(TrenchBroom-Benchmark asan)
