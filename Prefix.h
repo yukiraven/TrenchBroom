@@ -32,6 +32,7 @@
 #include <numeric>
 #include <ostream>
 #include <queue>
+#include <random>
 #include <set>
 #include <sstream>
 #include <stack>
@@ -45,6 +46,9 @@
 #include <unordered_map>
 #include <utility>
 #include <vector>
+
+#include <gmock/gmock.h>
+#include <gtest/gtest.h>
 
 #include <wx/accel.h>
 #include <wx/app.h>
@@ -77,6 +81,7 @@
 #include <wx/display.h>
 #include <wx/dnd.h>
 #include <wx/event.h>
+#include <wx/file.h>
 #include <wx/fileconf.h>
 #include <wx/filedlg.h>
 #include <wx/filefn.h>
