@@ -46,8 +46,6 @@
 #include <utility>
 #include <vector>
 
-#include <GL/glew.h>
-
 #include <wx/accel.h>
 #include <wx/app.h>
 #include <wx/apptrait.h>
@@ -88,7 +86,7 @@
 #include <wx/gbsizer.h>
 #include <wx/gdicmn.h>
 #include <wx/generic/helpext.h>
-#include <wx/glcanvas.h>
+//#include <wx/glcanvas.h>
 #include <wx/grid.h>
 #include <wx/icon.h>
 #include <wx/layout.h>
