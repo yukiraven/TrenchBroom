@@ -1,5 +1,5 @@
-//#include <FreeImage.h>
-//#include <Windows.h>
+// standard library
+
 #include <algorithm>
 #include <array>
 #include <bitset>
@@ -14,14 +14,11 @@
 #include <cstring>
 #include <ctime>
 #include <exception>
-#include <execinfo.h>
-#include <fcntl.h>
 #include <fstream>
 #include <functional>
 #include <initializer_list>
 #include <iomanip>
 #include <iostream>
-#include <iostream> // for nullptr
 #include <istream>
 #include <iterator>
 #include <limits>
@@ -36,19 +33,34 @@
 #include <set>
 #include <sstream>
 #include <stack>
-#include <stdint.h>
-#include <stdio.h>
 #include <string>
-#include <sys/mman.h>
 #include <tuple>
 #include <type_traits>
-#include <unistd.h>
 #include <unordered_map>
 #include <utility>
 #include <vector>
 
+// C
+
+#include <stdint.h>
+#include <stdio.h>
+
+// linux
+
+#include <execinfo.h>
+
+// posix
+
+#include <unistd.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+
+// google test
+
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
+
+// wxwidgets
 
 #include <wx/accel.h>
 #include <wx/app.h>
