@@ -1,4 +1,4 @@
-// standard library
+// C++ standard library
 
 #include <algorithm>
 #include <array>
@@ -39,21 +39,6 @@
 #include <unordered_map>
 #include <utility>
 #include <vector>
-
-// C
-
-#include <stdint.h>
-#include <stdio.h>
-
-// linux
-
-#include <execinfo.h>
-
-// posix
-
-#include <unistd.h>
-#include <sys/mman.h>
-#include <fcntl.h>
 
 // google test
 
