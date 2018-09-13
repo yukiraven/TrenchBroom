@@ -17,7 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "IO/TestParserStatus.h"
 #include "IO/WorldReader.h"

@@ -20,7 +20,6 @@
 #ifndef TrenchBroom_TestUtils_h
 #define TrenchBroom_TestUtils_h
 
-#include <gtest/gtest.h>
 
 #include "StringUtils.h"
 #include "VecMath.h"

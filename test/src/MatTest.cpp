@@ -17,7 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "Mat.h"
 #include "Quat.h"
@@ -25,8 +24,6 @@
 #include "TrenchBroom.h"
 #include "TestUtils.h"
 
-#include <cstdlib>
-#include <ctime>
 
 TEST(MatTest, nullMatrix) {
     const Mat4x4d& m = Mat4x4d::Null;

@@ -20,7 +20,6 @@
 #include "IO/Token.h"
 #include "IO/Tokenizer.h"
 
-#include <gtest/gtest.h>
 
 namespace TrenchBroom {
     namespace IO {

@@ -17,10 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
-#include <random>
-#include <algorithm>
-#include <vector>
 
 #include "Renderer/AllocationTracker.h"
 

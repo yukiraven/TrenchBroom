@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_MockObserver
 #define TrenchBroom_MockObserver
 
-#include <gtest/gtest.h>
-#include <gmock/gmock.h>
 
 #include "Notifier.h"
 

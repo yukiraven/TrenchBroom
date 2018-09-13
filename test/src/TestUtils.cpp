@@ -21,8 +21,6 @@
 
 #include "MathUtils.h"
 
-#include <cmath>
-#include <gmock/gmock.h>
 
 #include "CollectionUtils.h"
 #include "Model/Brush.h"

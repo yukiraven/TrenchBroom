@@ -17,13 +17,9 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "TrenchBroomApp.h"
 
-#include <wx/config.h>
-#include <wx/fileconf.h>
-#include <clocale>
 
 int main(int argc, char **argv) {
 

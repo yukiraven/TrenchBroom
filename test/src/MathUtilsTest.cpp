@@ -17,11 +17,9 @@ You should have received a copy of the GNU General Public License
 along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <gtest/gtest.h>
 
 #include "MathUtils.h"
 
-#include <cstdint>
 
 TEST(MathUtilsTest, findHighestOrderBit) {
     ASSERT_EQ(sizeof(unsigned)*8, Math::findHighestOrderBit(0u));

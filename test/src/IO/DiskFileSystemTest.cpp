@@ -17,7 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "Exceptions.h"
 #include "Macros.h"
@@ -25,11 +24,7 @@
 #include "IO/FileMatcher.h"
 #include "IO/Path.h"
 
-#include <algorithm>
 
-#include <wx/dir.h>
-#include <wx/file.h>
-#include <wx/filefn.h>
 
 namespace TrenchBroom {
     namespace IO {

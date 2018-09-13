@@ -17,14 +17,10 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "CollectionUtils.h"
 #include "StringUtils.h"
 
-#include <algorithm>
-#include <map>
-#include <vector>
 
 class TestObject {
 private:

@@ -17,7 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "Assets/Texture.h"
 #include "Assets/TextureCollection.h"
@@ -31,7 +30,6 @@
 #include "View/MapDocumentTest.h"
 #include "View/MapDocument.h"
 
-#include <cassert>
 
 namespace TrenchBroom {
     namespace View {

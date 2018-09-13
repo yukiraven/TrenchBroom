@@ -17,13 +17,11 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "EL.h"
 #include "CollectionUtils.h"
 #include "IO/ELParser.h"
 
-#include <limits>
 
 namespace TrenchBroom {
     namespace IO {

@@ -17,15 +17,12 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "IO/DiskFileSystem.h"
 #include "IO/FileMatcher.h"
 #include "IO/DkPakFileSystem.h"
 #include "IO/MappedFile.h"
 
-#include <algorithm>
-#include <cassert>
 
 namespace TrenchBroom {
     namespace IO {

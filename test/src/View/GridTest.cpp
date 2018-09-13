@@ -17,8 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
-#include <gmock/gmock.h>
 
 #include "TestUtils.h"
 #include "View/Grid.h"
@@ -29,7 +27,6 @@
 #include "Model/MapFormat.h"
 #include "Model/World.h"
 
-#include <cmath>
 
 namespace TrenchBroom {
     namespace View {

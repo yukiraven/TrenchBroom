@@ -19,7 +19,6 @@
 
 #include "EntityDefinitionTestUtils.h"
 
-#include <gtest/gtest.h>
 
 #include "EL.h"
 #include "Assets/EntityDefinition.h"

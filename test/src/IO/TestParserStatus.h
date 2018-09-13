@@ -24,7 +24,6 @@
 #include "StringUtils.h"
 #include "IO/ParserStatus.h"
 
-#include <map>
 
 namespace TrenchBroom {
     namespace IO {

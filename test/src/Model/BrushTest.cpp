@@ -17,7 +17,6 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
 #include "TestUtils.h"
 
@@ -35,8 +34,6 @@
 #include "Model/PickResult.h"
 #include "Model/World.h"
 
-#include <algorithm>
-#include <memory>
 
 namespace TrenchBroom {
     namespace Model {

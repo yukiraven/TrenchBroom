@@ -17,9 +17,7 @@
  along with TrenchBroom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <gtest/gtest.h>
 
-#include <cmath>
 
 #include "CollectionUtils.h"
 #include "EL.h"
