@@ -20,8 +20,6 @@
 #ifndef NestedWindowUpdateLocker_h
 #define NestedWindowUpdateLocker_h
 
-#include <stdio.h>
-
 class wxWindow;
 
 namespace TrenchBroom {

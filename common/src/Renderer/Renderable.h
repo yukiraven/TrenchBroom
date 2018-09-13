@@ -20,8 +20,6 @@
 #ifndef TrenchBroom_Renderable
 #define TrenchBroom_Renderable
 
-#include <stdio.h>
-
 namespace TrenchBroom {
     namespace Renderer {
         class RenderContext;

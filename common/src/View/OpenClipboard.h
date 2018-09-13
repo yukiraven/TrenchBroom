@@ -20,8 +20,6 @@
 #ifndef OpenClipboard_h
 #define OpenClipboard_h
 
-#include <stdio.h>
-
 namespace TrenchBroom {
     namespace View {
         class OpenClipboard {

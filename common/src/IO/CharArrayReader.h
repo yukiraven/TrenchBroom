@@ -21,14 +21,7 @@
 #define CharArrayReader_h
 
 #include "Macros.h"
-
 #include "VecMath.h"
-
-
-#ifdef _MSC_VER
-#elif defined __GNUC__
-#include <stdint.h>
-#endif
 
 namespace TrenchBroom {
     namespace IO {

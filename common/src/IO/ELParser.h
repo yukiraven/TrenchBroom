@@ -25,12 +25,6 @@
 #include "IO/Token.h"
 #include "IO/Tokenizer.h"
 
-
-#ifdef _MSC_VER
-#elif defined __GNUC__
-#include <stdint.h>
-#endif
-
 namespace TrenchBroom {
     namespace IO {
         namespace ELToken {
