@@ -75,6 +75,9 @@ ELSEIF(COMPILER_IS_MSVC)
     # Generate debug symbols even for Release; we build a stripped pdb in Release mode, see TrenchBroomApp.cmake
     SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} /Zi")
     SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /Zi")
+
+    # Fix error C3859: virtual memory range for PCH exceeded
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Zm200")
 ELSE()
     MESSAGE(FATAL_ERROR "Unsupported compiler detected.")
 ENDIF()
