@@ -28,7 +28,7 @@
 
 namespace TrenchBroom {
     namespace IO {
-        namespace PakLayout {
+        namespace DkPakLayout {
             static const size_t HeaderMagicLength = 0x4;
             static const size_t EntryLength       = 0x48;
             static const size_t EntryNameLength   = 0x38;
@@ -97,16 +97,16 @@ namespace TrenchBroom {
         
         void DkPakFileSystem::doReadDirectory() {
             CharArrayReader reader(m_file->begin(), m_file->end());
-            reader.seekFromBegin(PakLayout::HeaderMagicLength);
+            reader.seekFromBegin(DkPakLayout::HeaderMagicLength);
 
             const size_t directoryAddress = reader.readSize<int32_t>();
             const size_t directorySize = reader.readSize<int32_t>();
-            const size_t entryCount = directorySize / PakLayout::EntryLength;
+            const size_t entryCount = directorySize / DkPakLayout::EntryLength;
             
             reader.seekFromBegin(directoryAddress);
             
             for (size_t i = 0; i < entryCount; ++i) {
-                const String entryName = reader.readString(PakLayout::EntryNameLength);
+                const String entryName = reader.readString(DkPakLayout::EntryNameLength);
                 const size_t entryAddress = reader.readSize<int32_t>();
                 const size_t uncompressedSize = reader.readSize<int32_t>();
                 const size_t compressedSize = reader.readSize<int32_t>();

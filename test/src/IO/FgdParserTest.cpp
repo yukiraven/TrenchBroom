@@ -567,7 +567,7 @@ namespace TrenchBroom {
             VectorUtils::clearAndDelete(definitions);
         }
         
-        static const String ModelDefinitionTemplate =
+        static const String FgdModelDefinitionTemplate =
         "@PointClass\n"
         "    model(${MODEL}) = item_shells : \"Shells\" []\n";
         
@@ -578,10 +578,10 @@ namespace TrenchBroom {
             
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell0.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate);
+                                             FgdModelDefinitionTemplate);
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'spawnflags': 1 }");
         }
         
@@ -590,11 +590,11 @@ namespace TrenchBroom {
             
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp' }");
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp"), 1, 2),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp', 'skin': 1, 'frame': 2 }");
         }
         
@@ -603,14 +603,14 @@ namespace TrenchBroom {
             
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell0.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate);
+                                             FgdModelDefinitionTemplate);
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'spawnflags': 1 }");
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell0.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'spawnflags': 2 }");
         }
         
@@ -619,11 +619,11 @@ namespace TrenchBroom {
             
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp' }");
             assertModelDefinition<FgdParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp"), 1, 2),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             FgdModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp', 'skin': 1, 'frame': 2 }");
         }
 

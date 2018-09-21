@@ -353,7 +353,7 @@ namespace TrenchBroom {
             VectorUtils::clearAndDelete(definitions);
         }
         
-        static const String ModelDefinitionTemplate =
+        static const String DefModelDefinitionTemplate =
         "/*QUAKED monster_zombie (1.0 0.0 0.0) (-16 -16 -24) (16 16 32) Crucified ambush\n"
         "{\n"
         "model(${MODEL});\n"
@@ -367,10 +367,10 @@ namespace TrenchBroom {
             
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell0.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate);
+                                             DefModelDefinitionTemplate);
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'spawnflags': 1 }");
         }
         
@@ -379,11 +379,11 @@ namespace TrenchBroom {
             
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp' }");
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp"), 1, 2),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp', 'skin': 1, 'frame': 2 }");
         }
         
@@ -392,14 +392,14 @@ namespace TrenchBroom {
             
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell0.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate);
+                                             DefModelDefinitionTemplate);
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'spawnflags': 1 }");
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell0.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'spawnflags': 2 }");
         }
         
@@ -408,11 +408,11 @@ namespace TrenchBroom {
             
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp")),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp' }");
             assertModelDefinition<DefParser>(Assets::ModelSpecification(IO::Path("maps/b_shell1.bsp"), 1, 2),
                                              ModelDefinition,
-                                             ModelDefinitionTemplate,
+                                             DefModelDefinitionTemplate,
                                              "{ 'model': 'maps/b_shell1.bsp', 'skin': 1, 'frame': 2 }");
         }    }
 }

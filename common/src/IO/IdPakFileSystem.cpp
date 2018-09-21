@@ -27,7 +27,7 @@
 
 namespace TrenchBroom {
     namespace IO {
-        namespace PakLayout {
+        namespace IdPakLayout {
             static const size_t HeaderAddress     = 0x0;
             static const size_t HeaderMagicLength = 0x4;
             static const size_t EntryLength       = 0x40;
@@ -41,22 +41,22 @@ namespace TrenchBroom {
         }
 
         void IdPakFileSystem::doReadDirectory() {
-            char magic[PakLayout::HeaderMagicLength];
-            char entryNameBuffer[PakLayout::EntryNameLength + 1];
-            entryNameBuffer[PakLayout::EntryNameLength] = 0;
+            char magic[IdPakLayout::HeaderMagicLength];
+            char entryNameBuffer[IdPakLayout::EntryNameLength + 1];
+            entryNameBuffer[IdPakLayout::EntryNameLength] = 0;
             
-            const char* cursor = m_file->begin() + PakLayout::HeaderAddress;
-            readBytes(cursor, magic, PakLayout::HeaderMagicLength);
+            const char* cursor = m_file->begin() + IdPakLayout::HeaderAddress;
+            readBytes(cursor, magic, IdPakLayout::HeaderMagicLength);
             
             const size_t directoryAddress = readSize<int32_t>(cursor);
             const size_t directorySize = readSize<int32_t>(cursor);
-            const size_t entryCount = directorySize / PakLayout::EntryLength;
+            const size_t entryCount = directorySize / IdPakLayout::EntryLength;
             
             assert(m_file->begin() + directoryAddress + directorySize <= m_file->end());
             cursor = m_file->begin() + directoryAddress;
             
             for (size_t i = 0; i < entryCount; ++i) {
-                readBytes(cursor, entryNameBuffer, PakLayout::EntryNameLength);
+                readBytes(cursor, entryNameBuffer, IdPakLayout::EntryNameLength);
                 const String entryName(entryNameBuffer);
                 const size_t entryAddress = readSize<int32_t>(cursor);
                 const size_t entryLength = readSize<int32_t>(cursor);
