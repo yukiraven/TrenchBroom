@@ -115,7 +115,7 @@ FI_STRUCT (FIMULTIBITMAP) { void *data; };
 #endif // __MINGW32__
 
 #ifndef _WINDOWS_
-#define _WINDOWS_
+//#define _WINDOWS_
 
 #ifndef FALSE
 #define FALSE 0
