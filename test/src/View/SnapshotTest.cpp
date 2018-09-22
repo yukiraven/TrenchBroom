@@ -44,6 +44,7 @@ namespace TrenchBroom {
             document->addNode(brush, document->currentParent());
             
             const Assets::Texture* texture = document->textureManager().texture("coffin1");
+            ASSERT_NE(nullptr, texture); // if this fails, it indicates that the test data files couldn't be found
             ASSERT_EQ(6u, texture->usageCount());
             
             for (Model::BrushFace* face : brush->faces())
